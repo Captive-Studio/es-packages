@@ -1,0 +1,90 @@
+{
+  "name": "@captive/es-packages-src",
+  "version": "1.0.0-alpha.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Captive-Studio/es-packages.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "files": [],
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "clean": "turbo run clean",
+    "code-analysis": ":",
+    "configure": "npm run mrm -- configure",
+    "coverage": ":",
+    "develop": ":",
+    "docs": "node ./markdown.mjs && turbo run docs",
+    "format": "turbo run format --continue",
+    "format:root": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml --ignore-pattern='apps/*/**' --ignore-pattern='packages/*/**' --fix",
+    "lint": "turbo run lint",
+    "lint:root": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml --ignore-pattern='apps/*/**' --ignore-pattern='packages/*/**'",
+    "mrm": "npm exec --package=mrm --package=@w5s/mrm-preset@latest -- mrm --preset @w5s/mrm-preset",
+    "postbuild": "npm run docs",
+    "postinstall": "npm run prepare",
+    "prepare": "concurrently \"npm:prepare:*\" \":\"",
+    "prepare:githooks": "[ -n \"${CI:-}\" ] || npx husky install .githooks",
+    "prepare:packages": "turbo run prepare",
+    "release": "[ -n \"${CI:-}\" ] && lerna publish --yes || lerna publish",
+    "rescue": "git clean -fdx;npm install",
+    "spellcheck": "turbo run spellcheck",
+    "spellcheck:root": "cspell --no-progress '**' --exclude='apps/*/**' --exclude='packages/*/**'",
+    "test": "turbo run test",
+    "validate": "turbo run build lint test"
+  },
+  "commitlint": {
+    "extends": [
+      "@captive/commitlint-config"
+    ]
+  },
+  "lint-staged": {
+    "*.{json,jsonc,json5}": [
+      "eslint"
+    ],
+    "*.{yml,yaml}": [
+      "eslint"
+    ],
+    "*.js?(x)": [
+      "eslint"
+    ],
+    "*.ts?(x)": [
+      "eslint"
+    ]
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "project": "./tsconfig.json"
+    },
+    "extends": [
+      "@captive/eslint-config"
+    ]
+  },
+  "devDependencies": {
+    "@captive/commitlint-config": "2.1.0",
+    "@captive/conventional-changelog": "2.0.1",
+    "@captive/cspell-config": "2.1.1",
+    "@captive/eslint-config": "2.0.3",
+    "@captive/ts-config": "2.0.0",
+    "concurrently": "8.2.2",
+    "cspell": "7.3.8",
+    "eslint": "8.52.0",
+    "lerna": "7.4.1",
+    "prettier": "3.0.3",
+    "turbo": "1.10.16",
+    "typescript": "5.2.2"
+  },
+  "packageManager": "yarn@4.0.0",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=6.0.0",
+    "yarn": ">=1.4.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0-alpha.0",
+  "$schema": "https://json.schemastore.org/lerna.json",
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "npmClient": "npm"
+    },
+    "version": {
+      "message": "🔖 Publish %s"
+    }
+  },
+  "npmClient": "npm",
+  "changelogPreset": "@captive/conventional-changelog"
+}

@@ -1,0 +1,42 @@
+{
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build", "//#build:root"],
+      "outputs": ["lib/**", "dist/**", ".next/**"]
+    },
+    "//#build:root": {},
+    "test": {
+      "dependsOn": ["^build", "//#test:root"]
+    },
+    "//#test:root": {},
+    "lint": {
+      "dependsOn": ["^build", "//#lint:root"]
+    },
+    "//#lint:root": {},
+    "prepare": {},
+    "format": {
+      "dependsOn": ["//#format:root"]
+    },
+    "//#format:root": {},
+    "docs": {
+      "dependsOn": ["//#docs:root"],
+      "cache": false
+    },
+    "//#docs:root": {},
+    "spellcheck": {
+      "dependsOn": ["//#spellcheck:root"]
+    },
+    "//#spellcheck:root": {},
+    "clean": {
+      "dependsOn": ["//#clean:root"],
+      "cache": false
+    },
+    "//#clean:root": {
+      "cache": false
+    },
+    "develop": {
+      "cache": false
+    }
+  },
+  "globalDependencies": ["tsconfig.settings.json"]
+}
