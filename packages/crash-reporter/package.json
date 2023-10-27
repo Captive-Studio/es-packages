@@ -1,7 +1,6 @@
 {
   "name": "@captive/crash-reporter",
   "version": "1.0.0-local.0",
-  "private": true,
   "description": "A hub for crash reports. Many backends (Sentry, Raygun, ...), to many frontends (VueJS, ...)",
   "type": "module",
   "exports": {
@@ -53,5 +52,8 @@
     "vue": {
       "optional": true
     }
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
