@@ -15,16 +15,21 @@
     "!**/__tests__/**"
   ],
   "scripts": {
-    "build": "concurrently \"npm:build:*\" ",
+    "build": "npx concurrently \"npm:build:*\" ",
     "build:tsc": "tsc -b tsconfig.build.json",
-    "clean": "concurrently \"npm:clean:*\" \":\"",
+    "clean": "npx concurrently \"npm:clean:*\" \":\"",
     "clean:tsc": "rm -rf dist",
-    "format": "concurrently \"npm:format:*\" \":\"",
+    "format": "npx concurrently \"npm:format:*\" \":\"",
     "format:src": "eslint . --fix --ext=mjs,cjs,js,jsx,ts,tsx,json",
-    "lint": "concurrently \"npm:lint:*\" \":\"",
+    "lint": "npx concurrently \"npm:lint:*\" \":\"",
     "lint:src": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json",
     "postpack": "npx clean-package restore",
     "prepack": "npx clean-package",
+    "prepare": "npx concurrently \"npm:prepare:*\" \":\"",
+    "prepublishOnly": "npm run clean;npm run build",
+    "spellcheck": "cspell --no-progress '**'",
+    "test": "npx concurrently \"npm:test:*\" \":\"",
+    "test:src": "vitest run",
     "typecheck": "tsc"
   },
   "dependencies": {
