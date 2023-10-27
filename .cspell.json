@@ -1,8 +1,7 @@
 {
   "version": "0.2",
   "language": "en",
-  "words": [],
+  "words": ["frontends", "postpack", "Raygun", "VueJS"],
   "flagWords": [],
-  "ignorePaths": ["**/[.]*/**"],
   "import": ["@captive/cspell-config"]
 }
