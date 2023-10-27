@@ -34,7 +34,7 @@ describe('withPlugin', () => {
       })
     );
   });
-  it('should be a crashreporter instance', () => {
+  it('should be a CrashReporter instance', () => {
     const plugin = withPlugin(anyCrashReporter);
     expect(plugin).toEqual(
       expect.objectContaining({

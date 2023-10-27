@@ -1,6 +1,6 @@
 # Crash Reporter _(@captive/crash-reporter)_
 
-> A hub for crash reports. Many backends (Sentry, Raygun, ...), to many frontends (VueJS, ...)
+> A hub for crash reports. Many backends (Sentry, Raygun, ...), to many frontends(VueJS, ...)
 
 ## Installation
 
