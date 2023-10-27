@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0-alpha.0",
+  "version": "independent",
   "$schema": "https://json.schemastore.org/lerna.json",
   "command": {
     "publish": {

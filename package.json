@@ -76,6 +76,7 @@
     "concurrently": "8.2.2",
     "cspell": "7.3.8",
     "eslint": "8.52.0",
+    "jsdom": "22.1.0",
     "lerna": "7.4.1",
     "prettier": "3.0.3",
     "turbo": "1.10.16",
