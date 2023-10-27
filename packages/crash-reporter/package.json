@@ -23,7 +23,8 @@
     "format:src": "eslint . --fix --ext=mjs,cjs,js,jsx,ts,tsx,json",
     "lint": "concurrently \"npm:lint:*\" \":\"",
     "lint:src": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json",
-    "test": "vitest run",
+    "postpack": "npx clean-package restore",
+    "prepack": "npx clean-package",
     "typecheck": "tsc"
   },
   "dependencies": {
@@ -53,6 +54,7 @@
       "optional": true
     }
   },
+  "clean-package": "../../clean-package.config.cjs",
   "publishConfig": {
     "access": "public"
   }
