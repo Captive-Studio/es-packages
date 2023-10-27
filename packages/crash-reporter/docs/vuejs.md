@@ -4,11 +4,12 @@
 
 ```ts
 import { createApp } from 'vue';
-import { createCrashReporter } from '@app/crash-reporter/dist/vue';
+import { CrashReporter } from '@captive/crash-reporter';
+import { withPlugin } from '@captive/crash-reporter/dist/vue';
 
-const CrashReporter = createCrashReporter({
+const CrashReporter = withPlugin(CrashReporter({
     plugin: EmptyPlugin(),
-});
+}));
 const app = createApp({})
   .use(CrashReporter);
 ```
@@ -23,7 +24,7 @@ See [Crash Reporter](./crash-reporter.md#options)
 
 ```html
 <script setup>
-import { useCrashReporter } from '@app/crash-reporter/dist/vue';
+import { useCrashReporter } from '@captive/crash-reporter/dist/vue';
 
 const crashReporter = useCrashReporter();
 </script>
@@ -33,7 +34,7 @@ const crashReporter = useCrashReporter();
 ### Option API : use globalProperty `$crashReporter` or `useCrashReporter()`
 
 ```ts
-import { useCrashReporter } from '@app/crash-reporter/dist/vue';
+import { useCrashReporter } from '@captive/crash-reporter/dist/vue';
 
 export default {
     name: 'MyComponent',

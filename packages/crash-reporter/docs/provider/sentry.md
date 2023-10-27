@@ -3,8 +3,8 @@
 ## Setup
 
 ```ts
-import { CrashReporter } from '@app/crash-reporter';
-import { SentryCapacitorPlugin } from '@app/crash-reporter/dist/plugin/sentryCapacitor';
+import { CrashReporter } from '@captive/crash-reporter';
+import { SentryCapacitorPlugin } from '@captive/crash-reporter/dist/plugin/sentryCapacitor';
 
 const crashReporter = CrashReporter({
     plugin: SentryCapacitorPlugin({

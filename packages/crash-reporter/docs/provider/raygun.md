@@ -3,8 +3,8 @@
 ## Setup
 
 ```ts
-import { CrashReporter } from '@app/crash-reporter';
-import { RaygunPlugin } from '@app/crash-reporter/dist/plugin/raygun';
+import { CrashReporter } from '@captive/crash-reporter';
+import { RaygunPlugin } from '@captive/crash-reporter/dist/plugin/raygun';
 
 const crashReporter = CrashReporter({
     plugin: RaygunPlugin({

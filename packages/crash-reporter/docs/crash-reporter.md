@@ -3,7 +3,7 @@
 ## Setup
 
 ```ts
-import { CrashReporter } from '@app/crash-reporter';
+import { CrashReporter } from '@captive/crash-reporter';
 
 const crashReporter = CrashReporter({
     // app: 'my-app',
