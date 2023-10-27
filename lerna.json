@@ -7,7 +7,7 @@
       "npmClient": "npm"
     },
     "version": {
-      "message": "🔖 Publish %s"
+      "message": "🔖 Publish"
     }
   },
   "npmClient": "npm",

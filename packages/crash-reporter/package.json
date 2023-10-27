@@ -2,6 +2,12 @@
   "name": "@captive/crash-reporter",
   "version": "1.0.0-local.0",
   "description": "A hub for crash reports. Many backends (Sentry, Raygun, ...), to many frontends (VueJS, ...)",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Captive-Studio/es-packages.git",
+    "directory": "packages/crash-reporter"
+  },
+  "license": "MIT",
   "type": "module",
   "exports": {
     ".": "./dist/index.js",
@@ -15,14 +21,14 @@
     "!**/__tests__/**"
   ],
   "scripts": {
-    "build": "npx concurrently \"npm:build:*\" ",
+    "build": "npx concurrently \"npm:build:*\" \":\"",
     "build:tsc": "tsc -b tsconfig.build.json",
     "clean": "npx concurrently \"npm:clean:*\" \":\"",
     "clean:tsc": "rm -rf dist",
     "format": "npx concurrently \"npm:format:*\" \":\"",
-    "format:src": "eslint . --fix --ext=mjs,cjs,js,jsx,ts,tsx,json",
+    "format:src": "eslint . --fix --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
     "lint": "npx concurrently \"npm:lint:*\" \":\"",
-    "lint:src": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json",
+    "lint:src": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
     "postpack": "npx clean-package restore",
     "prepack": "npx clean-package",
     "prepare": "npx concurrently \"npm:prepare:*\" \":\"",
@@ -60,6 +66,9 @@
     }
   },
   "clean-package": "../../clean-package.config.cjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "publishConfig": {
     "access": "public"
   }

@@ -34,7 +34,7 @@
     "prepare:githooks": "[ -n \"${CI:-}\" ] || npx husky install .githooks",
     "prepare:packages": "turbo run prepare",
     "release": "[ -n \"${CI:-}\" ] && lerna publish --yes || lerna publish",
-    "rescue": "git clean -fdx;npm install",
+    "rescue": "git clean -fdx;yarn install",
     "spellcheck": "turbo run spellcheck",
     "spellcheck:root": "cspell --no-progress '**' --exclude='apps/*/**' --exclude='packages/*/**'",
     "test": "turbo run test",
