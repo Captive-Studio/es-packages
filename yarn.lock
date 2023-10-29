@@ -113,7 +113,7 @@ __metadata:
   resolution: "@captive/crash-reporter@workspace:packages/crash-reporter"
   dependencies:
     "@capacitor/core": "npm:5.5.1"
-    "@sentry/capacitor": "npm:^0.14.0"
+    "@sentry/capacitor": "npm:0.14.0"
     "@types/raygun4js": "npm:2.13.10"
     raygun4js: "npm:2.28.0"
     vite: "npm:4.5.0"
@@ -1730,7 +1730,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/capacitor@npm:^0.14.0":
+"@sentry/capacitor@npm:0.14.0":
   version: 0.14.0
   resolution: "@sentry/capacitor@npm:0.14.0"
   dependencies:
