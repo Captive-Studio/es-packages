@@ -71,7 +71,7 @@
     "@captive/commitlint-config": "2.1.1",
     "@captive/conventional-changelog": "2.0.2",
     "@captive/cspell-config": "2.2.3",
-    "@captive/eslint-config": "2.0.5",
+    "@captive/eslint-config": "2.0.6",
     "@captive/ts-config": "2.0.0",
     "concurrently": "8.2.2",
     "cspell": "8.0.0",
