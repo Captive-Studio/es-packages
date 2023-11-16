@@ -4,10 +4,11 @@
 
 ```ts
 import { CrashReporter } from '@captive/crash-reporter';
-import { SentryCapacitorPlugin } from '@captive/crash-reporter/dist/plugin/sentryCapacitor';
+import { SentryPlugin } from '@captive/crash-reporter/dist/plugin/sentry.js';
+import * as Sentry from '@sentry/browser'; // or '@sentry/capacitor'
 
 const crashReporter = CrashReporter({
-    plugin: SentryCapacitorPlugin({
+    plugin: SentryPlugin(Sentry, {
         dsn: '...',  
     }),
 });

@@ -1,26 +1,10 @@
-import { describe, it, expect, vi, type Mocked } from 'vitest';
-import * as Sentry from '@sentry/capacitor';
+import { describe, it, expect, type Mocked, vi } from 'vitest';
+import * as Sentry from '@sentry/browser';
 import { CrashReporter } from '../crashReporter.js';
 import { CrashReporterEvent } from '../event.js';
-import { SentryCapacitorPlugin } from './sentryCapacitor.js';
+import { SentryPlugin } from './sentry.js';
 
-vi.mock('@sentry/capacitor', async (_importActual) => {
-  const init: (...args: any[]) => any = vi.fn();
-
-  const captureException: (...args: any[]) => any = vi.fn();
-
-  const setUser: (...args: any[]) => any = vi.fn();
-
-  const setTags: (...args: any[]) => any = vi.fn();
-  return {
-    init,
-    captureException,
-    setUser,
-    setTags,
-  };
-});
-
-describe('SentryCapacitorPlugin', () => {
+describe('SentryPlugin', () => {
   const anyDSN = 'sentry-dsn';
   const anyError = new Error('AnyError');
   const anyOptions = {
@@ -30,12 +14,20 @@ describe('SentryCapacitorPlugin', () => {
     app: 'my-app',
     version: '1.0.0-default',
   });
-  const mockInstance = (): Mocked<typeof Sentry> => Sentry as any;
+  const mockInstance = (): Mocked<typeof Sentry> =>
+    ({
+      init: vi.fn(),
+      setTags: vi.fn(),
+      setUser: vi.fn(),
+      captureException: vi.fn(),
+    }) as unknown as Mocked<typeof Sentry>;
 
   describe('#name', () => {
     it('should be constant', () => {
+      const sentryInstance = mockInstance();
+
       expect(
-        SentryCapacitorPlugin({
+        SentryPlugin(sentryInstance, {
           dsn: anyDSN,
         })
       ).toHaveProperty('name', 'sentry');
@@ -44,7 +36,7 @@ describe('SentryCapacitorPlugin', () => {
   describe('#dispatchEvent', () => {
     it('should handle Initialize', async () => {
       const sentryInstance = mockInstance();
-      const plugin = SentryCapacitorPlugin({
+      const plugin = SentryPlugin(sentryInstance, {
         dsn: anyDSN,
       });
       const crashReporter = CrashReporter({
@@ -72,7 +64,7 @@ describe('SentryCapacitorPlugin', () => {
     });
     it('should handle CaptureError', async () => {
       const sentryInstance = mockInstance();
-      const plugin = SentryCapacitorPlugin(anyOptions);
+      const plugin = SentryPlugin(sentryInstance, anyOptions);
 
       await plugin.dispatchEvent(
         CrashReporterEvent.CaptureError({
@@ -94,7 +86,7 @@ describe('SentryCapacitorPlugin', () => {
     it('should handle UpdateUser', async () => {
       const sentryInstance = mockInstance();
       const user = { id: 'userId', email: 'toto@foo.bar', displayName: 'Toto Foo' };
-      const plugin = SentryCapacitorPlugin(anyOptions);
+      const plugin = SentryPlugin(sentryInstance, anyOptions);
 
       await plugin.dispatchEvent(CrashReporterEvent.UpdateUser({ user: undefined, instance: anyCrashReporter }));
       expect(sentryInstance.setUser).toHaveBeenCalled();
@@ -113,7 +105,7 @@ describe('SentryCapacitorPlugin', () => {
     });
     it('should handle UpdateVersion', async () => {
       const sentryInstance = mockInstance();
-      const plugin = SentryCapacitorPlugin({
+      const plugin = SentryPlugin(sentryInstance, {
         ...anyOptions,
       });
       await plugin.dispatchEvent(CrashReporterEvent.UpdateVersion({ version: '10.0.x', instance: anyCrashReporter }));
