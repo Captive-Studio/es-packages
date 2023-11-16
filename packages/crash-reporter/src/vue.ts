@@ -1,4 +1,4 @@
-import { inject, type InjectionKey, type App, type ComponentPublicInstance, handleError, ErrorCodes } from 'vue';
+import { inject, handleError, type InjectionKey, type App, type ComponentPublicInstance, type ErrorCodes } from 'vue';
 import { CrashReporter } from './crashReporter.js';
 
 // Declare globals
