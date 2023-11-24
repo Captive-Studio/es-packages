@@ -39,7 +39,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@types/raygun4js": "2.13.11"
+    "@types/raygun4js": "2.13.12"
   },
   "devDependencies": {
     "@capacitor/core": "5.5.1",

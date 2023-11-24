@@ -115,7 +115,7 @@ __metadata:
     "@capacitor/core": "npm:5.5.1"
     "@sentry/browser": "npm:7.81.1"
     "@sentry/capacitor": "npm:0.15.0"
-    "@types/raygun4js": "npm:2.13.11"
+    "@types/raygun4js": "npm:2.13.12"
     raygun4js: "npm:2.28.0"
     vite: "npm:5.0.2"
     vitest: "npm:0.34.6"
@@ -1888,10 +1888,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/raygun4js@npm:2.13.11":
-  version: 2.13.11
-  resolution: "@types/raygun4js@npm:2.13.11"
-  checksum: 055714f77de2f3ca122e53d6325bf84c1c0bdfdca0f7271795c0af09eebd770ce68e3bb2028ec4d9046e9490d4fd9257ab28d68b8a210435dd9f3a49412da9ce
+"@types/raygun4js@npm:2.13.12":
+  version: 2.13.12
+  resolution: "@types/raygun4js@npm:2.13.12"
+  checksum: 3ac209ffb20dfb84791370c5048e825d77b8e4fab58692b492c4e2e53e1c0a1506ef6f6840da68049ed70d39984e62234f6ea40faf77b3383f350e30733cbf77
   languageName: node
   linkType: hard
 
