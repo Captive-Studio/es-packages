@@ -29,7 +29,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/helper-validator-identifier@npm:^7.22.20, @babel/helper-validator-identifier@npm:^7.22.5":
+"@babel/helper-validator-identifier@npm:^7.22.20":
   version: 7.22.20
   resolution: "@babel/helper-validator-identifier@npm:7.22.20"
   checksum: dcad63db345fb110e032de46c3688384b0008a42a4845180ce7cd62b1a9c0507a1bed727c4d1060ed1a03ae57b4d918570259f81724aaac1a5b776056f37504e
@@ -160,7 +160,7 @@ __metadata:
     "@captive/commitlint-config": "npm:2.1.4"
     "@captive/conventional-changelog": "npm:2.0.2"
     "@captive/cspell-config": "npm:2.4.2"
-    "@captive/eslint-config": "npm:2.0.7"
+    "@captive/eslint-config": "npm:2.0.8"
     "@captive/ts-config": "npm:2.0.1"
     concurrently: "npm:8.2.2"
     cspell: "npm:8.0.0"
@@ -173,13 +173,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@captive/eslint-config@npm:2.0.7":
-  version: 2.0.7
-  resolution: "@captive/eslint-config@npm:2.0.7"
+"@captive/eslint-config@npm:2.0.8":
+  version: 2.0.8
+  resolution: "@captive/eslint-config@npm:2.0.8"
   dependencies:
     "@captive/prettier-config": "npm:^2.0.2"
     "@w5s/dev": "npm:^2.0.0"
-    "@w5s/eslint-config": "npm:2.0.3"
+    "@w5s/eslint-config": "npm:2.0.5"
     eslint-plugin-cypress: "npm:^2.12.1"
     eslint-plugin-vue: "npm:^9.9.0"
     find-up: "npm:^5.0.0"
@@ -192,7 +192,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: c9d7a535367fd10a01e22999810a141192c836f1045849046d7856d5305cb51fe1978c2224be68b728e18d211c8cc1b8d5d6ca1ec74945fc96bf2cb9a77b9f43
+  checksum: efe9e7676037eb40bc1ff2e8ca278ecd89b7c9a69a191139686011d02221d44c143e370f8e1463636cb3d0eae75ebbe64d45084c94a383ee51d2c129fb0e1de2
   languageName: node
   linkType: hard
 
@@ -2231,7 +2231,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/dev@npm:^2.0.0, @w5s/dev@npm:^2.0.3":
+"@w5s/dev@npm:^2.0.0, @w5s/dev@npm:^2.0.5":
   version: 2.0.5
   resolution: "@w5s/dev@npm:2.0.5"
   dependencies:
@@ -2240,15 +2240,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/eslint-config@npm:2.0.3":
-  version: 2.0.3
-  resolution: "@w5s/eslint-config@npm:2.0.3"
+"@w5s/eslint-config@npm:2.0.5":
+  version: 2.0.5
+  resolution: "@w5s/eslint-config@npm:2.0.5"
   dependencies:
     "@rushstack/eslint-patch": "npm:^1.1.0"
     "@typescript-eslint/eslint-plugin": "npm:^6.0.0"
     "@typescript-eslint/parser": "npm:^6.0.0"
-    "@w5s/dev": "npm:^2.0.3"
-    "@w5s/prettier-config": "npm:^2.0.1"
+    "@w5s/dev": "npm:^2.0.5"
+    "@w5s/prettier-config": "npm:^2.0.2"
     eslint-config-airbnb-base: "npm:^15.0.0"
     eslint-config-prettier: "npm:^9.0.0"
     eslint-plugin-import: "npm:^2.25.0"
@@ -2257,7 +2257,7 @@ __metadata:
     eslint-plugin-jsonc: "npm:^2.4.0"
     eslint-plugin-prettier: "npm:^5.0.0-alpha.0"
     eslint-plugin-promise: "npm:^6.0.0"
-    eslint-plugin-unicorn: "npm:^48.0.0"
+    eslint-plugin-unicorn: "npm:^49.0.0"
     eslint-plugin-yml: "npm:^1.1.0"
     find-up: "npm:^5.0.0"
     parse-gitignore: "npm:^2.0.0"
@@ -2270,11 +2270,11 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: e4fd9f7d8f08c1a0afdb37246b08155de1f303f5416764deb7d96728860d9b4897c875dbadb0a9569e2a4c3fdfa7bc128e681b624e0efeaff73bdc2af0f52660
+  checksum: 94bd4cf038a713d62c51f024e8808df77d7930f13acb9890f9493400341f592351b13a949f553e8c28ce5b5a2fdf49b143c125e1d090f294039b17cb53886628
   languageName: node
   linkType: hard
 
-"@w5s/prettier-config@npm:^2.0.0, @w5s/prettier-config@npm:^2.0.1":
+"@w5s/prettier-config@npm:^2.0.0, @w5s/prettier-config@npm:^2.0.2":
   version: 2.0.2
   resolution: "@w5s/prettier-config@npm:2.0.2"
   peerDependencies:
@@ -4326,11 +4326,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-unicorn@npm:^48.0.0":
-  version: 48.0.1
-  resolution: "eslint-plugin-unicorn@npm:48.0.1"
+"eslint-plugin-unicorn@npm:^49.0.0":
+  version: 49.0.0
+  resolution: "eslint-plugin-unicorn@npm:49.0.0"
   dependencies:
-    "@babel/helper-validator-identifier": "npm:^7.22.5"
+    "@babel/helper-validator-identifier": "npm:^7.22.20"
     "@eslint-community/eslint-utils": "npm:^4.4.0"
     ci-info: "npm:^3.8.0"
     clean-regexp: "npm:^1.0.0"
@@ -4338,7 +4338,6 @@ __metadata:
     indent-string: "npm:^4.0.0"
     is-builtin-module: "npm:^3.2.1"
     jsesc: "npm:^3.0.2"
-    lodash: "npm:^4.17.21"
     pluralize: "npm:^8.0.0"
     read-pkg-up: "npm:^7.0.1"
     regexp-tree: "npm:^0.1.27"
@@ -4346,8 +4345,8 @@ __metadata:
     semver: "npm:^7.5.4"
     strip-indent: "npm:^3.0.0"
   peerDependencies:
-    eslint: ">=8.44.0"
-  checksum: 158a9fc41c213a2d4a4d7ed9c866c86f9f1901d7f7371c60f3e18d05be73cb6982b72c33a679955142116032127835f8550b466484885c0cedb2e7ed951136ac
+    eslint: ">=8.52.0"
+  checksum: e5dea3f3aeef197bfdb17b69bed955d18b8c19cef95fb66292d340899a1132fdee1a1de1ef2806f6055d95fd23b7e6140299183790f06a673919dd751ecb8bfd
   languageName: node
   linkType: hard
 
