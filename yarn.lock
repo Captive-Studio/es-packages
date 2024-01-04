@@ -160,7 +160,7 @@ __metadata:
     "@captive/commitlint-config": "npm:2.1.6"
     "@captive/conventional-changelog": "npm:2.0.4"
     "@captive/cspell-config": "npm:2.4.4"
-    "@captive/eslint-config": "npm:2.0.10"
+    "@captive/eslint-config": "npm:2.0.11"
     "@captive/ts-config": "npm:2.1.0"
     concurrently: "npm:8.2.2"
     cspell: "npm:8.2.4"
@@ -173,9 +173,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@captive/eslint-config@npm:2.0.10":
-  version: 2.0.10
-  resolution: "@captive/eslint-config@npm:2.0.10"
+"@captive/eslint-config@npm:2.0.11":
+  version: 2.0.11
+  resolution: "@captive/eslint-config@npm:2.0.11"
   dependencies:
     "@captive/prettier-config": "npm:^2.0.4"
     "@w5s/dev": "npm:^2.0.0"
@@ -192,7 +192,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 7264457c2fa7a9eb8dd54abdf992f463ad637eb7a3c8faf70acdb9089a5fb5e29d3dd6e12e100995d8bf67e024b0af7ae563ce9f480973faa45dc2265813ea88
+  checksum: 5dbbd14984da25621597d008cf8cffb98c4c70f0617ff6962a08aa99c278d98c17f85ed7116efc112f4d2db2b7447bebfdb64e32c83e9f75494b04f0a0e4c76f
   languageName: node
   linkType: hard
 
