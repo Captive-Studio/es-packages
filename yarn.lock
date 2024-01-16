@@ -127,14 +127,14 @@ __metadata:
     "@sentry/browser": "npm:7.93.0"
     "@sentry/capacitor": "npm:0.15.0"
     "@types/raygun4js": "npm:2.13.12"
-    raygun4js: "npm:2.28.0"
+    raygun4js: "npm:3.0.0"
     vite: "npm:5.0.11"
     vitest: "npm:1.1.3"
     vue: "npm:3.4.14"
   peerDependencies:
     "@sentry/browser": 7.x
     "@sentry/capacitor": ">= 0.14.0"
-    raygun4js: ^2.25.6
+    raygun4js: ^2.25.6 || ^3.0.0
     vue: ^3.2.0
   peerDependenciesMeta:
     "@sentry/browser":
@@ -8054,10 +8054,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"raygun4js@npm:2.28.0":
-  version: 2.28.0
-  resolution: "raygun4js@npm:2.28.0"
-  checksum: d55ddc45d69a66ee0db2c190ed91259f71c7c927b2ae0529f73aefefa2560f13625edf01f163d5ca85de9dd68157a2b2b63174efc28611da6fabdd5eeee3462b
+"raygun4js@npm:3.0.0":
+  version: 3.0.0
+  resolution: "raygun4js@npm:3.0.0"
+  dependencies:
+    web-vitals: "npm:^3.5.0"
+  checksum: df82639fc077145a0b0c5b7985011166ecf8a49a9905d4815d4279545acf8ca234e0d34ad59bfdb7b60956a08054d52ffb811be8b8f3022a91ca353e86832be1
   languageName: node
   linkType: hard
 
@@ -9850,6 +9852,13 @@ __metadata:
   dependencies:
     defaults: "npm:^1.0.3"
   checksum: 5b61ca583a95e2dd85d7078400190efd452e05751a64accb8c06ce4db65d7e0b0cde9917d705e826a2e05cc2548f61efde115ffa374c3e436d04be45c889e5b4
+  languageName: node
+  linkType: hard
+
+"web-vitals@npm:^3.5.0":
+  version: 3.5.1
+  resolution: "web-vitals@npm:3.5.1"
+  checksum: 2b0239241b40e491aa048fac67191ba50cbc5b9d4a859166455d751d12c33399b70579dd3bf5639c37d32421459ce0f64de69307f4f2adae43c0f6b23010849c
   languageName: node
   linkType: hard
 
