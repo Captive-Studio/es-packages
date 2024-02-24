@@ -75,7 +75,7 @@
     "@captive/ts-config": "2.1.0",
     "concurrently": "8.2.2",
     "cspell": "8.4.1",
-    "eslint": "8.56.0",
+    "eslint": "8.57.0",
     "jsdom": "24.0.0",
     "lerna": "8.1.2",
     "prettier": "3.2.5",
