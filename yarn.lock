@@ -76,12 +76,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@capacitor/core@npm:5.7.3":
-  version: 5.7.3
-  resolution: "@capacitor/core@npm:5.7.3"
+"@capacitor/core@npm:5.7.4":
+  version: 5.7.4
+  resolution: "@capacitor/core@npm:5.7.4"
   dependencies:
     tslib: "npm:^2.1.0"
-  checksum: 10c0/ffc0d8b681a2f085a81680c6ab79cd70bdb6a76994d7ce98489996b71885d45d45689ed795b7d796c56c04c65ad713201b7f08e48bbc4854aab2e3c1b49dac0a
+  checksum: 10c0/71414c00402a4eec832470c9a18fc504e7bbd2df2e1339d4ce5e83e97689a57e831d7cee179889b6c058d553d69ce062519bfebf9a8d76aae274a01e4cfa7dc2
   languageName: node
   linkType: hard
 
@@ -112,7 +112,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/crash-reporter@workspace:packages/crash-reporter"
   dependencies:
-    "@capacitor/core": "npm:5.7.3"
+    "@capacitor/core": "npm:5.7.4"
     "@sentry/browser": "npm:7.107.0"
     "@sentry/capacitor": "npm:0.16.0"
     "@types/raygun4js": "npm:2.13.12"
