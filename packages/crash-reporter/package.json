@@ -42,7 +42,7 @@
     "@types/raygun4js": "2.13.12"
   },
   "devDependencies": {
-    "@capacitor/core": "5.7.5",
+    "@capacitor/core": "6.0.0",
     "@sentry/browser": "7.110.1",
     "@sentry/capacitor": "0.17.0",
     "raygun4js": "2.28.0",
