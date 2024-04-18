@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0-alpha.4](https://github.com/Captive-Studio/es-packages/compare/@captive/crash-reporter@1.0.0-alpha.3...@captive/crash-reporter@1.0.0-alpha.4) (2024-04-18)
+
+### 🐛 Bug Fixes
+
+- Fix typing error ([9173a4f](https://github.com/Captive-Studio/es-packages/commit/9173a4f))
+
+**Note:** Version bump only for package @captive/crash-reporter
+
 # [1.0.0-alpha.3](https://github.com/Captive-Studio/es-packages/compare/@captive/crash-reporter@1.0.0-alpha.2...@captive/crash-reporter@1.0.0-alpha.3) (2023-11-16)
 
 **Note:** Version bump only for package @captive/crash-reporter
