@@ -1,15 +1,16 @@
-import type * as Sentry from '@sentry/browser';
+import type * as Sentry from '@sentry/types';
 import { CrashReporterEvent } from '../event.js';
 import type { CrashReporter } from '../crashReporter.js';
 
 const assertNever = (_value: never) => {};
 
-export interface SentryRequiredOptions
-  extends Pick<Sentry.BrowserOptions, 'debug' | 'enabled' | 'release' | 'environment'> {}
+export interface SentryRequiredOptions extends Pick<Sentry.Options, 'debug' | 'enabled' | 'release' | 'environment'> {}
 
-export interface SentryModule<Options extends SentryRequiredOptions>
-  extends Pick<typeof Sentry, 'captureException' | 'setUser' | 'setTags'> {
+export interface SentryModule<Options extends SentryRequiredOptions> {
   init(options?: Options): void;
+  setUser(user: unknown): void;
+  setTags(tags: unknown): void;
+  captureException(error: unknown, options?: unknown): void;
 }
 
 /**
