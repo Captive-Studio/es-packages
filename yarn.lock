@@ -2430,8 +2430,8 @@ __metadata:
   linkType: hard
 
 "@w5s/cspell-config@npm:^2.2.2":
-  version: 2.2.15
-  resolution: "@w5s/cspell-config@npm:2.2.15"
+  version: 2.2.16
+  resolution: "@w5s/cspell-config@npm:2.2.16"
   dependencies:
     "@cspell/cspell-bundled-dicts": "npm:^8.0.0"
   peerDependencies:
@@ -2439,7 +2439,7 @@ __metadata:
   peerDependenciesMeta:
     cspell:
       optional: true
-  checksum: 10c0/6dd9d8e22a83325abe6a033282ef58e7dde1c63fe3212edb4887517c7f3fca96ca658cafe2a0af4d057c92fd0e2fc67f104affb61db40e5b36d4a4980755a5b7
+  checksum: 10c0/15176d80c714f621386ae6bcd90be61355fd67bb4cce1e7102ed41c070ffcabff63577f9e747ec358264f3c48ccf1212ad482e98225fb1454570f029719ea0a1
   languageName: node
   linkType: hard
 
