@@ -440,9 +440,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-en_us@npm:^4.3.20":
-  version: 4.3.20
-  resolution: "@cspell/dict-en_us@npm:4.3.20"
-  checksum: 10c0/84da881273cfecce2d06acc869e7dd6c64d0fe89f45c542fa0978f44da73bdc70ad0ef5dc48fecc558901c252212f9f4ce8fcf1d6471c7f65409c1b904d42bc2
+  version: 4.3.21
+  resolution: "@cspell/dict-en_us@npm:4.3.21"
+  checksum: 10c0/f45ef1d3eda7aef5e4d62520e8af099204bb9bbf7c3d8170bac9a58846d5eef91b3c1aac20cc2a9072c018b6acaf5e959266ebbe4c8c25e4201b745b77b10603
   languageName: node
   linkType: hard
 
@@ -659,9 +659,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-software-terms@npm:^3.3.23":
-  version: 3.3.24
-  resolution: "@cspell/dict-software-terms@npm:3.3.24"
-  checksum: 10c0/d965dfc76d0b576db18046fba39779a87c3b196bca914590afd64f4cf726ba0c6a134234e6823c04c5cde5ab38450a08fc87eab6b93a2fe4cc0b77be176c927b
+  version: 3.3.25
+  resolution: "@cspell/dict-software-terms@npm:3.3.25"
+  checksum: 10c0/2735719c0eab80c4a9a0b0b7acb4c170acf5a2e36c591f4db4034e8239246d1ac69e8555e41cbf13cd19cab903a1831b821f1b27035e19d3d3d78dc88c702329
   languageName: node
   linkType: hard
 
