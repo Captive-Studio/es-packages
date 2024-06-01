@@ -4241,13 +4241,13 @@ __metadata:
   linkType: hard
 
 "eslint-compat-utils@npm:^0.5.0":
-  version: 0.5.0
-  resolution: "eslint-compat-utils@npm:0.5.0"
+  version: 0.5.1
+  resolution: "eslint-compat-utils@npm:0.5.1"
   dependencies:
     semver: "npm:^7.5.4"
   peerDependencies:
     eslint: ">=6.0.0"
-  checksum: 10c0/aea9ff05df3f4d5db95361c13cb89baf3669fe34ad73e5771843dbb5cafdc7a9636c6f93814a29d0e0b87f147846ddef6672b71e28c4e73f889b5ea8d1d454d2
+  checksum: 10c0/325e815205fab70ebcd379f6d4b5d44c7d791bb8dfe0c9888233f30ebabd9418422595b53a781b946c768d9244d858540e5e6129a6b3dd6d606f467d599edc6c
   languageName: node
   linkType: hard
 
