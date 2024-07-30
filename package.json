@@ -69,7 +69,7 @@
   },
   "devDependencies": {
     "@captive/commitlint-config": "2.1.7",
-    "@captive/conventional-changelog": "2.0.8",
+    "@captive/conventional-changelog": "2.0.9",
     "@captive/cspell-config": "2.4.11",
     "@captive/eslint-config": "2.0.18",
     "@captive/ts-config": "2.1.3",
