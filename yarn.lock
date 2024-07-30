@@ -167,7 +167,7 @@ __metadata:
     "@captive/commitlint-config": "npm:2.1.7"
     "@captive/conventional-changelog": "npm:2.0.8"
     "@captive/cspell-config": "npm:2.4.11"
-    "@captive/eslint-config": "npm:2.0.18"
+    "@captive/eslint-config": "npm:2.0.19"
     "@captive/ts-config": "npm:2.1.3"
     concurrently: "npm:8.2.2"
     cspell: "npm:8.12.1"
@@ -180,13 +180,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@captive/eslint-config@npm:2.0.18":
-  version: 2.0.18
-  resolution: "@captive/eslint-config@npm:2.0.18"
+"@captive/eslint-config@npm:2.0.19":
+  version: 2.0.19
+  resolution: "@captive/eslint-config@npm:2.0.19"
   dependencies:
-    "@captive/prettier-config": "npm:^2.0.5"
+    "@captive/prettier-config": "npm:^2.0.6"
     "@w5s/dev": "npm:^2.0.0"
-    "@w5s/eslint-config": "npm:2.0.18"
+    "@w5s/eslint-config": "npm:2.0.21"
     eslint-plugin-cypress: "npm:^3.0.0"
     eslint-plugin-vue: "npm:^9.9.0"
     find-up: "npm:^5.0.0"
@@ -199,13 +199,13 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/36997fa2c8b6a8d6aa2a70a70fe1281211442424d6ac089dc086e07588307296aa8f9bc46c382cd0bd31349da9c2e2f79b0c2127ecabd3d3fc217b2d9a66b42d
+  checksum: 10c0/7517b80cadc77dbe48380f2e0cc934b3f73edfb44a684b567828d7d49e8446ecff09126e74f504a6754da72c99a5897e097ee771c7d1d9057ef645ec32f613d8
   languageName: node
   linkType: hard
 
-"@captive/prettier-config@npm:^2.0.5":
-  version: 2.0.5
-  resolution: "@captive/prettier-config@npm:2.0.5"
+"@captive/prettier-config@npm:^2.0.6":
+  version: 2.0.6
+  resolution: "@captive/prettier-config@npm:2.0.6"
   dependencies:
     "@w5s/prettier-config": "npm:^2.0.0"
   peerDependencies:
@@ -213,7 +213,7 @@ __metadata:
   peerDependenciesMeta:
     prettier:
       optional: true
-  checksum: 10c0/ab1cb91a95dad2be60040f8f5bf39cd7715280e33e0c9780bf67e6b1af64accf0fce490b46f01aab3e18b690869d4cf3ad51eed4909c7f11a74a6dca4d558a82
+  checksum: 10c0/52639adc504f33ba05a39823ae37e94681fc8147b0c4cde6b5bfc873cbd8b516607c4267b67b4acf4ebb9bdd01717c28af20dcb971ec50dc38d62da3bf68258f
   languageName: node
   linkType: hard
 
@@ -2513,7 +2513,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/dev@npm:^2.0.0, @w5s/dev@npm:^2.2.0":
+"@w5s/dev@npm:^2.0.0, @w5s/dev@npm:^2.2.2":
   version: 2.2.5
   resolution: "@w5s/dev@npm:2.2.5"
   dependencies:
@@ -2522,15 +2522,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/eslint-config@npm:2.0.18":
-  version: 2.0.18
-  resolution: "@w5s/eslint-config@npm:2.0.18"
+"@w5s/eslint-config@npm:2.0.21":
+  version: 2.0.21
+  resolution: "@w5s/eslint-config@npm:2.0.21"
   dependencies:
     "@rushstack/eslint-patch": "npm:^1.1.0"
     "@typescript-eslint/eslint-plugin": "npm:^7.0.0"
     "@typescript-eslint/parser": "npm:^7.0.0"
-    "@w5s/dev": "npm:^2.2.0"
-    "@w5s/prettier-config": "npm:^2.0.13"
+    "@w5s/dev": "npm:^2.2.2"
+    "@w5s/prettier-config": "npm:^2.0.15"
     eslint-config-airbnb-base: "npm:^15.0.0"
     eslint-config-prettier: "npm:^9.0.0"
     eslint-plugin-import: "npm:^2.25.0"
@@ -2552,11 +2552,11 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10c0/4d734b49820086f46ed909a1667d461fb43150eaccb4487c6c354b1b096d7acc7e03446335ba306339aed7384bf2a5ceae33b68c5f2145fd40e10d1f0d6e9ac4
+  checksum: 10c0/923af32a1f1aecb0ec8f9b9d4a97b65e2240d8f1e0a2631f9e6556b196489b8aeac2552ccca26f3ee39369c72d03b18d9c9971f60542f5aa15010b1eb4a3ad6e
   languageName: node
   linkType: hard
 
-"@w5s/prettier-config@npm:^2.0.0, @w5s/prettier-config@npm:^2.0.13":
+"@w5s/prettier-config@npm:^2.0.0, @w5s/prettier-config@npm:^2.0.15":
   version: 2.0.18
   resolution: "@w5s/prettier-config@npm:2.0.18"
   peerDependencies:
