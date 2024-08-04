@@ -438,9 +438,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-en-common-misspellings@npm:^2.0.3":
-  version: 2.0.3
-  resolution: "@cspell/dict-en-common-misspellings@npm:2.0.3"
-  checksum: 10c0/3edf4a15d1145cae3f3dbcfa9d1b1be48a26d52e1a02bbb723cd005f196b6c8a8ebcbc300167b13ebe8bf083f9c293975de8ee282bb9799009a677972d1bb92d
+  version: 2.0.4
+  resolution: "@cspell/dict-en-common-misspellings@npm:2.0.4"
+  checksum: 10c0/b26132803f9408c766ff5a5e83a5b42a63921f4771d6dadc46bda9bf27f29f9735b69a1ff8230de735ba191b0788123dcb9dbbe9c40c2b1c029f9cdf8a9345ac
   languageName: node
   linkType: hard
 
@@ -671,16 +671,16 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-software-terms@npm:^4.0.3":
-  version: 4.0.3
-  resolution: "@cspell/dict-software-terms@npm:4.0.3"
-  checksum: 10c0/eb11cbbbb978fec707b495327a0bf1eaf830bfe205ec8ea512049e4adc7e1f3c0dbc14aa14fcc0418b4cc8693fbf0a216cb7d53f2d7deab474b983a5857ce5a0
+  version: 4.0.4
+  resolution: "@cspell/dict-software-terms@npm:4.0.4"
+  checksum: 10c0/8de3f4d0f07def98d9c0e307496670e7d828bfd335e3fd5e8d8931ad945364ebb6f85b52c7200ce38ed8141c4c6657151147fb99b8b857eb56efcb76a7ec266b
   languageName: node
   linkType: hard
 
 "@cspell/dict-sql@npm:^2.1.3":
-  version: 2.1.3
-  resolution: "@cspell/dict-sql@npm:2.1.3"
-  checksum: 10c0/2b9037e51cc471a9bd6a1a79a6cdbd109646a170b5926d5174b29bdfce0a3fd096bc2ab0b9e6d49d5114760429cfce3bf424c3a1e6a15288a361b35860797400
+  version: 2.1.4
+  resolution: "@cspell/dict-sql@npm:2.1.4"
+  checksum: 10c0/835ac9060f5ea4a25f3f25eac17571993874e8c1d8cbeecc5a14512bebcba7b8763663cbd3851a3ddd5a4f231bb096c8cdc7a341a0687e226f7ecaaf72fd3a3a
   languageName: node
   linkType: hard
 
