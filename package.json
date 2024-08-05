@@ -33,7 +33,7 @@
     "prepare": "concurrently \"npm:prepare:*\" \":\"",
     "prepare:githooks": "[ -n \"${CI:-}\" ] || npx husky install .githooks",
     "prepare:packages": "turbo run prepare",
-    "release": "[ -n \"${CI:-}\" ] && lerna publish --yes || lerna publish",
+    "release": "[ -n \"${CI:-}\" ] && npx lerna publish --yes || npx lerna publish",
     "rescue": "git clean -fdx;yarn install",
     "spellcheck": "turbo run spellcheck",
     "spellcheck:root": "cspell --no-progress '**' --exclude='apps/*/**' --exclude='packages/*/**'",
@@ -79,7 +79,7 @@
     "jsdom": "24.1.1",
     "lerna": "8.1.7",
     "prettier": "3.3.3",
-    "turbo": "1.13.4",
+    "turbo": "2.0.11",
     "typescript": "5.5.4"
   },
   "packageManager": "yarn@4.4.0",
