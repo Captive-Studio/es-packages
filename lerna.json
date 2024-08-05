@@ -10,6 +10,6 @@
       "message": "🔖 Publish"
     }
   },
-  "npmClient": "npm",
+  "npmClient": "yarn",
   "changelogPreset": "@captive/conventional-changelog"
 }
