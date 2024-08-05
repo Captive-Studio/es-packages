@@ -31,7 +31,7 @@
     "postbuild": "npm run docs",
     "postinstall": "npm run prepare",
     "prepare": "concurrently \"npm:prepare:*\" \":\"",
-    "prepare:githooks": "[ -n \"${CI:-}\" ] || npx husky install .githooks",
+    "prepare:githooks": "[ -n \"${CI:-}\" ] || git config core.hooksPath .githooks",
     "prepare:packages": "turbo run prepare",
     "release": "[ -n \"${CI:-}\" ] && npx lerna publish --yes || npx lerna publish",
     "rescue": "git clean -fdx;yarn install",

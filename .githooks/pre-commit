@@ -1,5 +1,5 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
+#!/usr/bin/env bash
+set -euo pipefail
 
 # BEGIN MANAGED BLOCK
 npm exec -- lint-staged
