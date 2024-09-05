@@ -105,12 +105,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/conventional-changelog@npm:2.0.9":
-  version: 2.0.9
-  resolution: "@captive/conventional-changelog@npm:2.0.9"
+"@captive/conventional-changelog@npm:2.0.10":
+  version: 2.0.10
+  resolution: "@captive/conventional-changelog@npm:2.0.10"
   dependencies:
-    "@w5s/conventional-changelog": "npm:2.0.15"
-  checksum: 10c0/425b2be69dc05f670d9b7bef4a4d594dec69f2ae4b5d8ab53cd42660bacb45658b20ea74eb9f52d5344dcda0a9f172ccd0c871fe772daabad917b551c462398d
+    "@w5s/conventional-changelog": "npm:2.0.20"
+  checksum: 10c0/ae2c79b9b34c0c03c00e4c4d2e8a065b8e0a11b84d723891427c13a194ad8ffaf38347e256863d1c6d502310f65781af69984a62e4e351480c305d2528efb12d
   languageName: node
   linkType: hard
 
@@ -167,7 +167,7 @@ __metadata:
   resolution: "@captive/es-packages-src@workspace:."
   dependencies:
     "@captive/commitlint-config": "npm:2.1.7"
-    "@captive/conventional-changelog": "npm:2.0.9"
+    "@captive/conventional-changelog": "npm:2.0.10"
     "@captive/cspell-config": "npm:2.4.12"
     "@captive/eslint-config": "npm:2.0.19"
     "@captive/ts-config": "npm:2.1.4"
@@ -2546,18 +2546,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/conventional-changelog@npm:2.0.15":
-  version: 2.0.15
-  resolution: "@w5s/conventional-changelog@npm:2.0.15"
-  dependencies:
-    "@commitlint/types": "npm:^18.0.0"
-    emoji-regex: "npm:^10.2.1"
-    gitmojis: "npm:^3.13.4"
-  checksum: 10c0/4762102bad5b8d5b9dc4fe7654529995a87fa5be80187d1be19585e924ce2a75a2c0726a8a7270beb8cd2a86b036d13612a6bde5fc20cc7451474a0d8688f694
-  languageName: node
-  linkType: hard
-
-"@w5s/conventional-changelog@npm:^2.0.20":
+"@w5s/conventional-changelog@npm:2.0.20, @w5s/conventional-changelog@npm:^2.0.20":
   version: 2.0.20
   resolution: "@w5s/conventional-changelog@npm:2.0.20"
   dependencies:
