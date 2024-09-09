@@ -146,19 +146,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@captive/cspell-config@npm:2.4.13":
-  version: 2.4.13
-  resolution: "@captive/cspell-config@npm:2.4.13"
+"@captive/cspell-config@npm:2.4.14":
+  version: 2.4.14
+  resolution: "@captive/cspell-config@npm:2.4.14"
   dependencies:
     "@cspell/dict-bash": "npm:^4.1.2"
     "@cspell/dict-fr-fr": "npm:^2.2.0"
-    "@w5s/cspell-config": "npm:^2.2.2"
+    "@w5s/cspell-config": "npm:^2.3.10"
   peerDependencies:
     cspell: ^6.0.0 || ^7.0.0 || ^8.0.0
   peerDependenciesMeta:
     cspell:
       optional: true
-  checksum: 10c0/ddd10c2bb058c75df17dd72d403d508516b674a2a071d9a351b91ee04c2d5c70c37973770cc2ac4643e244eb19a3d9c37d0fe989fa81ddefc966002d55122014
+  checksum: 10c0/52776e625dbcd94263e28ca09e9cc2807d22af47e1b0c7761f7f00cd51afd92638fd933e5a925dc618174d893fdbb4d6a019b08d92b10327d7d58f5819c710da
   languageName: node
   linkType: hard
 
@@ -168,7 +168,7 @@ __metadata:
   dependencies:
     "@captive/commitlint-config": "npm:2.1.8"
     "@captive/conventional-changelog": "npm:2.0.10"
-    "@captive/cspell-config": "npm:2.4.13"
+    "@captive/cspell-config": "npm:2.4.14"
     "@captive/eslint-config": "npm:2.0.20"
     "@captive/ts-config": "npm:2.1.4"
     concurrently: "npm:8.2.2"
@@ -2557,9 +2557,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/cspell-config@npm:^2.2.2":
-  version: 2.3.7
-  resolution: "@w5s/cspell-config@npm:2.3.7"
+"@w5s/cspell-config@npm:^2.3.10":
+  version: 2.3.10
+  resolution: "@w5s/cspell-config@npm:2.3.10"
   dependencies:
     "@cspell/cspell-bundled-dicts": "npm:^8.0.0"
   peerDependencies:
@@ -2567,7 +2567,7 @@ __metadata:
   peerDependenciesMeta:
     cspell:
       optional: true
-  checksum: 10c0/80e61dd5ff86a55e929e05f29a2f82ed9bed5e246f87207230843e6ea43d9356095515146128fe1c6f046afbb926dbb963f8ea1c3459a2f7f4160cd340dc7a6e
+  checksum: 10c0/ba71d85cc1ed9018d35a23b5e4201eb601d6ddd77120ef2dfb7cab3b434297b70d67bdc35614dff64a5c8d71c810c1993a5a57ebd9d8551d7b3655d9996cccf9
   languageName: node
   linkType: hard
 
