@@ -72,7 +72,7 @@
     "@captive/conventional-changelog": "2.0.10",
     "@captive/cspell-config": "2.4.13",
     "@captive/eslint-config": "2.0.20",
-    "@captive/ts-config": "2.1.4",
+    "@captive/ts-config": "2.2.0",
     "concurrently": "8.2.2",
     "cspell": "8.14.2",
     "eslint": "8.57.0",
