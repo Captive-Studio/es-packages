@@ -7662,12 +7662,12 @@ __metadata:
   linkType: hard
 
 "parse-imports@npm:^2.1.1":
-  version: 2.1.1
-  resolution: "parse-imports@npm:2.1.1"
+  version: 2.2.0
+  resolution: "parse-imports@npm:2.2.0"
   dependencies:
     es-module-lexer: "npm:^1.5.3"
     slashes: "npm:^3.0.12"
-  checksum: 10c0/c9bb0b4e1823f84f034d2d7bd2b37415b1715a5c963fda14968c706186b48b02c10e97d04bce042b9dcd679b42f29c391ea120799ddf581c7f54786edd99e3a9
+  checksum: 10c0/9d02ab6e509a94cb9803b68abd9a83b67b4226986742d56660a5206e656b655a5732ba4f98ef1e861817b45c5ab456eaa25eb4584e7463bf9addb150db26f8ab
   languageName: node
   linkType: hard
 
