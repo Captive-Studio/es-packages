@@ -95,12 +95,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/conventional-changelog@npm:2.0.14":
-  version: 2.0.14
-  resolution: "@captive/conventional-changelog@npm:2.0.14"
+"@captive/conventional-changelog@npm:2.0.15":
+  version: 2.0.15
+  resolution: "@captive/conventional-changelog@npm:2.0.15"
   dependencies:
-    "@w5s/conventional-changelog": "npm:2.0.25"
-  checksum: 10c0/146fc2b6712b14c489d0228b74a70af1301da77d3d567dceab8f51b93984e6b332f370d5c6092316cf5beadebbb93db16a99020580616d5cbf4d3f5ef8e09ce0
+    "@w5s/conventional-changelog": "npm:2.1.1"
+  checksum: 10c0/7d6067d1c54371711082034b7dad1707ea318b25a4fad554f4cdc9aaa1521cc52ffeed3f4d125af739029d602a435c5472b409fba3b519879785dd8ab77467f4
   languageName: node
   linkType: hard
 
@@ -157,7 +157,7 @@ __metadata:
   resolution: "@captive/es-packages-src@workspace:."
   dependencies:
     "@captive/commitlint-config": "npm:2.1.10"
-    "@captive/conventional-changelog": "npm:2.0.14"
+    "@captive/conventional-changelog": "npm:2.0.15"
     "@captive/cspell-config": "npm:2.4.15"
     "@captive/eslint-config": "npm:2.0.24"
     "@captive/ts-config": "npm:2.2.1"
@@ -218,15 +218,6 @@ __metadata:
     typescript:
       optional: true
   checksum: 10c0/08c7aa54e8f4b8051ec3a90a70038b5798d04e200cfe37f3381abdfb7a8d8b3ee7244089c445f2180b579f21a9749547c3aca1f50bda4b34de6cb45590ef9f9a
-  languageName: node
-  linkType: hard
-
-"@commitlint/types@npm:^18.0.0":
-  version: 18.6.1
-  resolution: "@commitlint/types@npm:18.6.1"
-  dependencies:
-    chalk: "npm:^4.1.0"
-  checksum: 10c0/5728f5cb62bcaad5158dd8982ab5d44c1ea1aee9ac251026cd91b9a4795bb912505c904f75cbd3ae0d1bb7b4dd1e5d84990b76093230018166af8e111b658685
   languageName: node
   linkType: hard
 
@@ -2516,18 +2507,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@w5s/conventional-changelog@npm:2.0.25":
-  version: 2.0.25
-  resolution: "@w5s/conventional-changelog@npm:2.0.25"
-  dependencies:
-    "@commitlint/types": "npm:^18.0.0"
-    emoji-regex: "npm:^10.2.1"
-    gitmojis: "npm:^3.13.4"
-  checksum: 10c0/e3f173198a9adda8592b11ed539d1b75fceea85c3f58f62866f306c9b12bd9fe8baaf90d196744df51452e3310cfd0aec0a1c427e861636ce73976ecb583147e
-  languageName: node
-  linkType: hard
-
-"@w5s/conventional-changelog@npm:^2.1.1":
+"@w5s/conventional-changelog@npm:2.1.1, @w5s/conventional-changelog@npm:^2.1.1":
   version: 2.1.1
   resolution: "@w5s/conventional-changelog@npm:2.1.1"
   dependencies:
