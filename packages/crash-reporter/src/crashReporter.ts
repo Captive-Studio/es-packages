@@ -87,7 +87,7 @@ export function CrashReporter(options: CrashReporter.Options): CrashReporter {
       CrashReporterEvent.UpdateVersion({
         version,
         instance,
-      })
+      }),
     );
   }
 
@@ -97,7 +97,7 @@ export function CrashReporter(options: CrashReporter.Options): CrashReporter {
       CrashReporterEvent.UpdateUser({
         user,
         instance,
-      })
+      }),
     );
   }
 
@@ -108,7 +108,7 @@ export function CrashReporter(options: CrashReporter.Options): CrashReporter {
         error,
         tags: errorTags ?? {},
         instance,
-      })
+      }),
     );
   }
 

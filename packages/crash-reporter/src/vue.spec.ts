@@ -31,7 +31,7 @@ describe('withPlugin', () => {
     expect(plugin).toEqual(
       expect.objectContaining({
         install: expect.any(Function),
-      })
+      }),
     );
   });
   it('should be a CrashReporter instance', () => {
@@ -39,7 +39,7 @@ describe('withPlugin', () => {
     expect(plugin).toEqual(
       expect.objectContaining({
         captureError: expect.any(Function),
-      })
+      }),
     );
   });
   describe('#install', () => {
@@ -57,7 +57,7 @@ describe('withPlugin', () => {
       expect(app.config.globalProperties).toEqual(
         expect.objectContaining({
           $crashReporter: plugin,
-        })
+        }),
       );
     });
     it('should set errorHandler', () => {

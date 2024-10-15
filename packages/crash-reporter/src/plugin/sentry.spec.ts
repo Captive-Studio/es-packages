@@ -29,7 +29,7 @@ describe('SentryPlugin', () => {
       expect(
         SentryPlugin(sentryInstance, {
           dsn: anyDSN,
-        })
+        }),
       ).toHaveProperty('name', 'sentry');
     });
   });
@@ -74,7 +74,7 @@ describe('SentryPlugin', () => {
             foo: 'bar',
             simple: '',
           },
-        })
+        }),
       );
       expect(sentryInstance.captureException).toHaveBeenCalledWith(anyError, {
         tags: {

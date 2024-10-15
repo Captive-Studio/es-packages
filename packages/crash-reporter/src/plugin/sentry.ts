@@ -19,7 +19,7 @@ export interface SentryModule<Options extends SentryRequiredOptions> {
  */
 export function SentryPlugin<Options extends SentryRequiredOptions>(
   sentryModule: SentryModule<Options>,
-  options?: Options
+  options?: Options,
 ): CrashReporter.Plugin {
   return {
     name: 'sentry',
