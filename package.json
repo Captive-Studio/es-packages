@@ -29,10 +29,8 @@
     "lint:root": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml --ignore-pattern='apps/*/**' --ignore-pattern='packages/*/**'",
     "mrm": "npm exec --package=mrm --package=@w5s/mrm-preset@latest -- mrm --preset @w5s/mrm-preset",
     "postbuild": "npm run docs",
-    "postinstall": "npm run prepare",
-    "prepare": "concurrently \"npm:prepare:*\" \":\"",
-    "prepare:githooks": "[ -n \"${CI:-}\" ] || git config core.hooksPath .githooks",
-    "prepare:packages": "turbo run prepare",
+    "postinstall": "npx run-p \"postinstall:*\"",
+    "postinstall:githooks": "[ -n \"${CI:-}\" ] || git config core.hooksPath .githooks",
     "release": "[ -n \"${CI:-}\" ] && npx lerna publish --yes || npx lerna publish",
     "rescue": "git clean -fdx;yarn install",
     "spellcheck": "turbo run spellcheck",
@@ -73,11 +71,10 @@
     "@captive/cspell-config": "2.4.15",
     "@captive/eslint-config": "2.0.25",
     "@captive/ts-config": "2.2.1",
-    "concurrently": "8.2.2",
     "cspell": "8.15.2",
     "eslint": "8.57.1",
     "jsdom": "25.0.1",
-    "lerna": "8.1.8",
+    "npm-run-all2": "^6.2.3",
     "prettier": "3.3.3",
     "turbo": "2.1.3",
     "typescript": "5.6.3"
@@ -87,5 +84,6 @@
     "node": ">=18.0.0",
     "npm": ">=6.0.0",
     "yarn": ">=1.4.0"
-  }
+  },
+  "sideEffect": false
 }
