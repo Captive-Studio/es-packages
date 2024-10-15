@@ -32,7 +32,7 @@ describe('RaygunPlugin', () => {
       expect(
         RaygunPlugin({
           apiKey: anyApiKey,
-        })
+        }),
       ).toHaveProperty('name', 'raygun');
     });
   });
@@ -75,7 +75,7 @@ describe('RaygunPlugin', () => {
             foo: 'bar',
             simple: '',
           },
-        })
+        }),
       );
       expect(raygunInstance.send).toHaveBeenCalledWith(anyError, undefined, ['foo:bar', 'simple']);
     });
@@ -95,7 +95,7 @@ describe('RaygunPlugin', () => {
 
       raygunInstance.setUser.mockReset();
       await plugin.dispatchEvent(
-        CrashReporterEvent.UpdateUser({ user: { ...user, id: undefined }, instance: anyCrashReporter })
+        CrashReporterEvent.UpdateUser({ user: { ...user, id: undefined }, instance: anyCrashReporter }),
       );
       expect(raygunInstance.setUser).toHaveBeenCalledWith(undefined, true, user.email, user.displayName);
     });

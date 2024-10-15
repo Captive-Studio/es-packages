@@ -25,7 +25,7 @@ describe('CrashReporter', () => {
       const reporter = CrashReporter({ plugin });
       reporter.captureError({ error: anyError, tags });
       expect(plugin.dispatchEvent).toHaveBeenCalledWith(
-        CrashReporterEvent.CaptureError({ error: anyError, tags, instance: reporter })
+        CrashReporterEvent.CaptureError({ error: anyError, tags, instance: reporter }),
       );
     });
     it('with ({ plugin, enabled: false })', () => {
@@ -41,7 +41,7 @@ describe('CrashReporter', () => {
       const reporter = CrashReporter({ plugin });
       reporter.setUser({ id: 'user-id' });
       expect(plugin.dispatchEvent).toHaveBeenCalledWith(
-        CrashReporterEvent.UpdateUser({ user: { id: 'user-id' }, instance: reporter })
+        CrashReporterEvent.UpdateUser({ user: { id: 'user-id' }, instance: reporter }),
       );
     });
   });
@@ -51,7 +51,7 @@ describe('CrashReporter', () => {
       const reporter = CrashReporter({ plugin });
       reporter.setVersion('1.0.0');
       expect(plugin.dispatchEvent).toHaveBeenCalledWith(
-        CrashReporterEvent.UpdateVersion({ version: '1.0.0', instance: reporter })
+        CrashReporterEvent.UpdateVersion({ version: '1.0.0', instance: reporter }),
       );
     });
   });

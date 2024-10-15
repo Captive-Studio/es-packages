@@ -78,7 +78,7 @@ export function RaygunPlugin(options: RaygunPlugin.Option): CrashReporter.Plugin
             // @ts-ignore Thrown error are typed as unknown
             event.error,
             undefined,
-            toRaygunTags(event.tags)
+            toRaygunTags(event.tags),
           );
           break;
         }
