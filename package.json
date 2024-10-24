@@ -72,7 +72,7 @@
     "@captive/eslint-config": "2.0.26",
     "@captive/ts-config": "2.3.0",
     "cspell": "8.15.4",
-    "eslint": "8.57.1",
+    "eslint": "9.13.0",
     "jsdom": "25.0.1",
     "npm-run-all2": "^7.0.0",
     "prettier": "3.3.3",
