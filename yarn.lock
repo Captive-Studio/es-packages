@@ -143,7 +143,7 @@ __metadata:
     cspell: "npm:8.15.4"
     eslint: "npm:8.57.1"
     jsdom: "npm:25.0.1"
-    npm-run-all2: "npm:^7.0.0"
+    npm-run-all2: "npm:7.0.1"
     prettier: "npm:3.3.3"
     turbo: "npm:2.2.3"
     typescript: "npm:5.6.3"
@@ -4700,7 +4700,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"npm-run-all2@npm:^7.0.0":
+"npm-run-all2@npm:7.0.1":
   version: 7.0.1
   resolution: "npm-run-all2@npm:7.0.1"
   dependencies:
