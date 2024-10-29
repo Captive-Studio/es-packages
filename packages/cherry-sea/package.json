@@ -1,0 +1,46 @@
+{
+  "name": "@captive/cherry-sea",
+  "version": "1.0.0",
+  "description": "Theme for Tailwind or vanilla CSS",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Captive-Studio/es-packages.git",
+    "directory": "packages/cherry-sea"
+  },
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js",
+    "./dist/*": "./dist/*"
+  },
+  "typings": "./dist/index.d.ts",
+  "files": [
+    "dist/",
+    "src/",
+    "!**/*.spec.*",
+    "!**/__tests__/**"
+  ],
+  "scripts": {
+    "build": "npx run-p \"build:*\"",
+    "build:tsc": "tsc -b tsconfig.build.json",
+    "clean": "npx run-p \"clean:*\"",
+    "clean:tsc": "rm -rf dist",
+    "format": "npx run-p \"format:*\"",
+    "format:src": "eslint . --fix --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
+    "lint": "npx run-p \"lint:*\"",
+    "lint:src": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
+    "postpack": "npx clean-package restore",
+    "prepack": "npx clean-package",
+    "prepare": "npx run-p \"prepare:*\"",
+    "prepublishOnly": "npm run clean;npm run build",
+    "typecheck": "tsc"
+  },
+  "clean-package": "../../clean-package.config.cjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffect": false
+}
