@@ -12,15 +12,15 @@ import { goldenFizz } from './goldenFizz.js';
 const white = '#fff';
 
 const colors = {
-  aquaSerenity,
-  blueGrey,
-  pinkVivid,
-  lightBlueVivid,
-  limeGreen,
-  yellowVivid,
-  redVivid,
+  'aqua-serenity': aquaSerenity,
+  'blue-grey': blueGrey,
+  'pink-vivid': pinkVivid,
+  'light-blue-vivid': lightBlueVivid,
+  'lime-green': limeGreen,
+  'yellow-vivid': yellowVivid,
+  'red-vivid': redVivid,
+  'golden-fizz': goldenFizz,
   purple,
-  goldenFizz,
   white,
 
   schemes: {
