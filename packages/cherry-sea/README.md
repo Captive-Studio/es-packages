@@ -21,13 +21,13 @@ yarn add @captive/cherry-sea
 ### Javascript import
 
 ```javascript
-import { colors } from '@captive/cherry-sea/theme/colors';
+import { colors } from '@captive/cherry-sea/dist/colors.js';
 ```
 
 ### Tailwind
 
 ```javascript
-import { colors } from '@captive/cherry-sea/theme/colors';
+import { colors } from '@captive/cherry-sea/dist/colors.js';
 
 module.exports = {
   theme: {
