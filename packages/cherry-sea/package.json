@@ -31,7 +31,6 @@
     "lint:src": "eslint . --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
     "postpack": "npx clean-package restore",
     "prepack": "npx clean-package",
-    "prepare": "npx run-p \"prepare:*\"",
     "prepublishOnly": "npm run clean;npm run build",
     "typecheck": "tsc"
   },
