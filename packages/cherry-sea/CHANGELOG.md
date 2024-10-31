@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/Captive-Studio/es-packages/compare/@captive/cherry-sea@1.1.3...@captive/cherry-sea@1.3.0) (2024-10-31)
+
+### ✨ Features
+
+- Add fonts ([403ccef](https://github.com/Captive-Studio/es-packages/commit/403ccef))
+
+**Note:** Version bump only for package @captive/cherry-sea
+
 ## [1.1.3](https://github.com/Captive-Studio/es-packages/compare/@captive/cherry-sea@1.1.2...@captive/cherry-sea@1.1.3) (2024-10-30)
 
 **Note:** Version bump only for package @captive/cherry-sea
