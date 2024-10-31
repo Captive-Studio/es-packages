@@ -21,23 +21,39 @@ yarn add @captive/cherry-sea
 ### Javascript import
 
 ```javascript
-import { colors, spacing } from '@captive/cherry-sea';
+import { colors, spacing, fonts } from '@captive/cherry-sea';
 ```
 
 ### Tailwind
 
 ```javascript
-import { colors, spacing } from '@captive/cherry-sea';
+import { colors, spacing, fonts } from '@captive/cherry-sea';
 
 module.exports = {
   theme: {
     extend: {
       colors: colors,
       spacing: spacing,
+      fontFamily: fonts,
     }
   }
 }
 ```
+
+```html
+<h1 class="text-pink-vivid-500 font-brand mt-space-200">Title</h1>
+<!--
+  Here, the title will have
+  - text-pink-vivid-500: color of the pink vivid 500 (#d9127c)
+  - font-brand: the brand font (Barlow)
+  - mt-space-200: margin-top of 32px (space-200)
+-->
+```
+
+@see Tailwind documentation for more :
+- [colors](https://tailwindcss.com/docs/customizing-colors)
+- [spacing](https://tailwindcss.com/docs/customizing-spacing)
+- [fonts](https://tailwindcss.com/docs/font-family)
 
 ## Documentation
 
