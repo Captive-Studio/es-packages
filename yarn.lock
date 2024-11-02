@@ -611,9 +611,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-npm@npm:^5.1.8":
-  version: 5.1.8
-  resolution: "@cspell/dict-npm@npm:5.1.8"
-  checksum: 10c0/1076eb0ba4d3fe085c84b356b3c11cf7cdfec14417dc96ba2730ed0a6e7499b506a936510d04ed431a013f1ba3efbb716f9d9ffe185211de9f27c97a6f0c1026
+  version: 5.1.9
+  resolution: "@cspell/dict-npm@npm:5.1.9"
+  checksum: 10c0/2034ca10e75af804e7aea63d5988fb9478a50e79c3c82a6d7c1059c67f78e9fe5290e0fdd08277e3c3df9345a28113f10c844d0fb84418dbe67abe462e324496
   languageName: node
   linkType: hard
 
@@ -704,9 +704,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-terraform@npm:^1.0.5":
-  version: 1.0.5
-  resolution: "@cspell/dict-terraform@npm:1.0.5"
-  checksum: 10c0/e47b11ed9b6ff03a398857b9b07516e4a7a8f3c0d6913e2a597b75553210ae0f5fafe60d818cad061a8321312005c2d37e76a4f8eb7e1d814a4e4cb87abfbf81
+  version: 1.0.6
+  resolution: "@cspell/dict-terraform@npm:1.0.6"
+  checksum: 10c0/0494d01703d671c47b93085ba791c2098640d11fc366adc877df16e79b5eccedf7d93d46d6acb37f4fa24f2c7ffac761ff1cd4c539ece2701519abbbbaa445e4
   languageName: node
   linkType: hard
 
@@ -9037,21 +9037,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tldts-core@npm:^6.1.57":
-  version: 6.1.57
-  resolution: "tldts-core@npm:6.1.57"
-  checksum: 10c0/0d5fa6ecb47a695a0dd83cea36335a96f04c280f93c5dff595e3559b46a96475ee75d9f76c8dd32a48e6e68bfa89c7e652dff360590f0b648d3918102f5855e1
+"tldts-core@npm:^6.1.58":
+  version: 6.1.58
+  resolution: "tldts-core@npm:6.1.58"
+  checksum: 10c0/aadb37cad88c8ab59042471f6de7c269f9e4db4fc0b644787176ddc7ed1c95ebd486071836a3fc6e09c59421040a7002cc61b36c983eb66938630536aa042299
   languageName: node
   linkType: hard
 
 "tldts@npm:^6.1.32":
-  version: 6.1.57
-  resolution: "tldts@npm:6.1.57"
+  version: 6.1.58
+  resolution: "tldts@npm:6.1.58"
   dependencies:
-    tldts-core: "npm:^6.1.57"
+    tldts-core: "npm:^6.1.58"
   bin:
     tldts: bin/cli.js
-  checksum: 10c0/f35bb22167cb928da4bacb6dc8b49b8cea78b343dc9461675f939630df84f22de4e514aa56e64cedfb361cd1137132bdc37f945d51d4092aa081052e00c9d4dc
+  checksum: 10c0/dc2c95cf84e9bde5a86b37d3fd0e2d37cd3c1a9057cb122663899368ee45fa2b12a9d4848cb67785bf3a9a2bf9323bfac4c2ffadb815e1a6948b3e053c06f848
   languageName: node
   linkType: hard
 
