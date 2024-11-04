@@ -1,6 +1,6 @@
 {
   "name": "@captive/crash-reporter",
-  "version": "1.0.0-alpha.6",
+  "version": "1.0.0-alpha.7",
   "description": "A hub for crash reports. Many backends (Sentry, Raygun, ...), to many frontends (VueJS, ...)",
   "repository": {
     "type": "git",
