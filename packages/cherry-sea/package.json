@@ -22,6 +22,7 @@
   ],
   "scripts": {
     "build": "npx run-p \"build:*\"",
+    "build-css-vars": "tsc && node dist/generate-css-vars.js",
     "build:tsc": "tsc -b tsconfig.build.json",
     "clean": "npx run-p \"clean:*\"",
     "clean:tsc": "rm -rf dist",
