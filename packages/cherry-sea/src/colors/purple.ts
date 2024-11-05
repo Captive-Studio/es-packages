@@ -1,5 +1,6 @@
-/* eslint-disable @typescript-eslint/naming-convention */
-const purple = {
+import { ColorPalette } from '../type.js';
+
+export const purple = ColorPalette({
   50: '#eae2f8',
   100: '#cfbcf2',
   200: '#a081d9',
@@ -10,6 +11,4 @@ const purple = {
   700: '#421987',
   800: '#34126f',
   900: '#240754',
-};
-
-export { purple };
+});

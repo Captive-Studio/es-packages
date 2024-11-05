@@ -1,5 +1,6 @@
-/* eslint-disable @typescript-eslint/naming-convention */
-const goldenFizz = {
+import { ColorPalette } from '../type.js';
+
+export const goldenFizz = ColorPalette({
   50: '#fffee5',
   100: '#feffc7',
   200: '#fcff95',
@@ -10,7 +11,5 @@ const goldenFizz = {
   700: '#758506',
   800: '#5d690b',
   900: '#4d5810',
-  950: '#293102',
-};
-
-export { goldenFizz };
+  // 950: '#293102',// This does not exist is design system
+});
