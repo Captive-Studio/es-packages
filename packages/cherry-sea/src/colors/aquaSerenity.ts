@@ -1,5 +1,6 @@
-/* eslint-disable @typescript-eslint/naming-convention */
-const aquaSerenity = {
+import { ColorPalette } from '../type.js';
+
+export const aquaSerenity = ColorPalette({
   50: '#EFFEFE',
   100: '#D8FFFF',
   200: '#BFFBFB',
@@ -10,7 +11,5 @@ const aquaSerenity = {
   700: '#40C9C9',
   800: '#38A0A0',
   900: '#2F7777',
-  950: '#245555',
-};
-
-export { aquaSerenity };
+  // 950: '#245555', // This does not exist is design system
+});

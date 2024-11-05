@@ -1,5 +1,6 @@
-/* eslint-disable @typescript-eslint/naming-convention */
-const yellowVivid = {
+import { ColorPalette } from '../type.js';
+
+export const yellowVivid = ColorPalette({
   50: '#fffbea',
   100: '#fff3c4',
   200: '#fce588',
@@ -10,6 +11,4 @@ const yellowVivid = {
   700: '#cb6e17',
   800: '#b44d12',
   900: '#8d2b0b',
-};
-
-export { yellowVivid };
+});

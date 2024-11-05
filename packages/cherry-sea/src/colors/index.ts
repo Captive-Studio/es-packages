@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/naming-convention */
 import { aquaSerenity } from './aquaSerenity.js';
 import { blueGrey } from './blueGrey.js';
 import { pinkVivid } from './pinkVivid.js';

@@ -1,5 +1,6 @@
-/* eslint-disable @typescript-eslint/naming-convention */
-const blueGrey = {
+import { ColorPalette } from '../type.js';
+
+export const blueGrey = ColorPalette({
   50: '#f5f7fa',
   100: '#d9e2ec',
   200: '#bcccdc',
@@ -10,6 +11,4 @@ const blueGrey = {
   700: '#334e68',
   800: '#243b53',
   900: '#102a43',
-};
-
-export { blueGrey };
+});

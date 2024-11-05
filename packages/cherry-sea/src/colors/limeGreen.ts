@@ -1,5 +1,6 @@
-/* eslint-disable @typescript-eslint/naming-convention */
-const limeGreen = {
+import { ColorPalette } from '../type.js';
+
+export const limeGreen = ColorPalette({
   50: '#f2fde0',
   100: '#e2f7c2',
   200: '#c7ea8f',
@@ -10,6 +11,4 @@ const limeGreen = {
   700: '#507712',
   800: '#42600c',
   900: '#2b4005',
-};
-
-export { limeGreen };
+});
