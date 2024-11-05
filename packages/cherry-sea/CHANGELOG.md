@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.1](https://github.com/Captive-Studio/es-packages/compare/@captive/cherry-sea@1.4.0...@captive/cherry-sea@1.4.1) (2024-11-05)
+
+### 🐛 Bug Fixes
+
+- Fix build config ([16d6cea](https://github.com/Captive-Studio/es-packages/commit/16d6cea))
+
+**Note:** Version bump only for package @captive/cherry-sea
+
 # [1.4.0](https://github.com/Captive-Studio/es-packages/compare/@captive/cherry-sea@1.3.0...@captive/cherry-sea@1.4.0) (2024-11-05)
 
 ### ✨ Features
