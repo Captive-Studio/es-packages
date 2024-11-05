@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 import fs from 'node:fs';
-import { colors, fonts, spacing } from './index.js';
+import { colors, fonts, spacing } from '../dist/index.js';
 
 function toCSSVariables(obj: object, prefix = ''): string {
   let cssVars = '';
