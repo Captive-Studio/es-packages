@@ -1,5 +1,6 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-export type CSSColor = string;
+
+import type { CSSColor } from './CSS.js';
 
 export interface ColorPalette {
   50: CSSColor;
