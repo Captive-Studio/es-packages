@@ -1,5 +1,7 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-const spacing = {
+import type { Spacing } from '../type.js';
+
+export const spacing: Spacing = {
   'space-000': '0px',
   'space-025': '4px',
   'space-050': '8px',
@@ -18,5 +20,3 @@ const spacing = {
   'space-4000': '640px',
   'space-4800': '768px',
 };
-
-export { spacing };
