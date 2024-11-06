@@ -12,7 +12,7 @@ export function toCSSVariables(theme: Theme, prefix = ''): CSSVariables {
   return {
     ...toCSSVariablesObject(theme.typeface, `${prefix}-typeface`),
     ...toCSSVariablesObject(theme.color, `${prefix}-color`),
-    ...toCSSVariablesObject(theme.spacing, `${prefix}-space`),
+    ...toCSSVariablesObject(theme.space, `${prefix}-space`),
   };
 }
 
