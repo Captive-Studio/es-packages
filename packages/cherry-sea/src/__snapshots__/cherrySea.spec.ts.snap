@@ -1,0 +1,53 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`cherrySea > matches snapshot 1`] = `
+{
+  "spacing": {
+    "space-000": "0px",
+    "space-025": "4px",
+    "space-050": "8px",
+    "space-075": "12px",
+    "space-100": "16px",
+    "space-1200": "192px",
+    "space-150": "24px",
+    "space-1600": "256px",
+    "space-200": "32px",
+    "space-2400": "384px",
+    "space-300": "48px",
+    "space-3200": "512px",
+    "space-400": "64px",
+    "space-4000": "640px",
+    "space-4800": "768px",
+    "space-600": "96px",
+    "space-800": "128px",
+  },
+  "typeface": {
+    "brand": {
+      "fontFamily": [
+        "Barlow",
+        "-apple-system",
+        "Segoe UI",
+        "roboto",
+        "noto sans",
+        "ubuntu",
+        "cantarell",
+        "helvetica neue",
+      ],
+      "letterSpacing": undefined,
+    },
+    "plain": {
+      "fontFamily": [
+        "Inter",
+        "-apple-system",
+        "Segoe UI",
+        "roboto",
+        "noto sans",
+        "ubuntu",
+        "cantarell",
+        "helvetica neue",
+      ],
+      "letterSpacing": undefined,
+    },
+  },
+}
+`;
