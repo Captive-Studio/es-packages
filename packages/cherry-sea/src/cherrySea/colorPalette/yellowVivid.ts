@@ -1,4 +1,4 @@
-import { ColorPalette } from '../type.js';
+import { ColorPalette } from '../../type.js';
 
 export const yellowVivid = ColorPalette({
   50: '#fffbea',

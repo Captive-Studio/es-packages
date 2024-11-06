@@ -1,4 +1,4 @@
-import { ColorPalette } from '../type.js';
+import { ColorPalette } from '../../type.js';
 
 export const aquaSerenity = ColorPalette({
   50: '#EFFEFE',

@@ -1,4 +1,4 @@
-import { ColorPalette } from '../type.js';
+import { ColorPalette } from '../../type.js';
 
 export const purple = ColorPalette({
   50: '#eae2f8',

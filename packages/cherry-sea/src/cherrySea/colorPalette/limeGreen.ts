@@ -1,4 +1,4 @@
-import { ColorPalette } from '../type.js';
+import { ColorPalette } from '../../type.js';
 
 export const limeGreen = ColorPalette({
   50: '#f2fde0',

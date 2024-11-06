@@ -1,4 +1,4 @@
-import { ColorPalette } from '../type.js';
+import { ColorPalette } from '../../type.js';
 
 export const pinkVivid = ColorPalette({
   50: '#fff5f8',
