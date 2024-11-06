@@ -35,6 +35,9 @@
     "typecheck": "tsc"
   },
   "clean-package": "../../clean-package.config.cjs",
+  "devDependencies": {
+    "vitest": "2.1.4"
+  },
   "engines": {
     "node": ">=18.0.0"
   },
