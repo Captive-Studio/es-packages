@@ -64,6 +64,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/cherry-sea@workspace:packages/cherry-sea"
   dependencies:
+    vite: "npm:5.4.10"
     vitest: "npm:2.1.4"
   languageName: unknown
   linkType: soft
