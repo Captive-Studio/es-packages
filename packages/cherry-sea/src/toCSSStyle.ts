@@ -10,6 +10,7 @@ export function toCSSStyle(theme: Theme, prefix = ''): string {
 
 export function toCSSVariables(theme: Theme, prefix = ''): CSSVariables {
   return {
+    ...toCSSVariablesObject(theme.typeface, `${prefix}-typeface`),
     ...toCSSVariablesObject(theme.color, `${prefix}-color`),
     ...toCSSVariablesObject(theme.spacing, `${prefix}-space`),
   };
@@ -25,7 +26,7 @@ function toCSSVariablesObject(obj: object, prefix = ''): CSSVariables {
       }
       // Formate le nom de la variable CSS
       const cssVarName = `${prefix}-${toDashCase(key.replaceAll('_', '-'))}`;
-      return [[cssVarName, Array.isArray(value) ? value.join(',') : String(value)]];
+      return [[cssVarName, Array.isArray(value) ? value.join(', ') : String(value)]];
     });
   }
 

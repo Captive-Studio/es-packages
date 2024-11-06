@@ -1,7 +1,9 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`cherrySea > matches snapshot 1`] = `
+exports[`toCSSStyle > matches snapshot 1`] = `
 ":root {
+  --cs-typeface-brand: Barlow, -apple-system, Segoe UI, roboto, noto sans, ubuntu, cantarell, helvetica neue;
+  --cs-typeface-plain: Inter, -apple-system, Segoe UI, roboto, noto sans, ubuntu, cantarell, helvetica neue;
   --cs-color-primary: #d9127c;
   --cs-color-on-primary: #fff;
   --cs-color-primary-container: red;
@@ -43,4 +45,50 @@ exports[`cherrySea > matches snapshot 1`] = `
   --cs-space-4800: 768px;
 }
 "
+`;
+
+exports[`toCSSVariables > matches snapshot 1`] = `
+{
+  "cs-color-error": "red",
+  "cs-color-error-container": "red",
+  "cs-color-on-error": "red",
+  "cs-color-on-error-container": "red",
+  "cs-color-on-primary": "#fff",
+  "cs-color-on-primary-container": "red",
+  "cs-color-on-secondary": "red",
+  "cs-color-on-secondary-container": "red",
+  "cs-color-on-surface": "#102a43",
+  "cs-color-on-surface-variant": "#334e68",
+  "cs-color-on-tertiary": "red",
+  "cs-color-on-tertiary-container": "red",
+  "cs-color-outline": "red",
+  "cs-color-outline-variant": "red",
+  "cs-color-primary": "#d9127c",
+  "cs-color-primary-container": "red",
+  "cs-color-secondary": "red",
+  "cs-color-secondary-container": "red",
+  "cs-color-surface": "#f5f7fa",
+  "cs-color-tertiary": "red",
+  "cs-color-tertiary-container": "red",
+  "cs-color-white": "#fff",
+  "cs-space-0": "0px",
+  "cs-space-100": "16px",
+  "cs-space-1200": "192px",
+  "cs-space-150": "24px",
+  "cs-space-1600": "256px",
+  "cs-space-200": "32px",
+  "cs-space-2400": "384px",
+  "cs-space-25": "4px",
+  "cs-space-300": "48px",
+  "cs-space-3200": "512px",
+  "cs-space-400": "64px",
+  "cs-space-4000": "640px",
+  "cs-space-4800": "768px",
+  "cs-space-50": "8px",
+  "cs-space-600": "96px",
+  "cs-space-75": "12px",
+  "cs-space-800": "128px",
+  "cs-typeface-brand": "Barlow, -apple-system, Segoe UI, roboto, noto sans, ubuntu, cantarell, helvetica neue",
+  "cs-typeface-plain": "Inter, -apple-system, Segoe UI, roboto, noto sans, ubuntu, cantarell, helvetica neue",
+}
 `;
