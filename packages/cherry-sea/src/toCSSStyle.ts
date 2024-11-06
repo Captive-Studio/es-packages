@@ -10,7 +10,7 @@ export function toCSSStyle(theme: Theme, prefix = ''): string {
 
 export function toCSSVariables(theme: Theme, prefix = ''): CSSVariables {
   return {
-    ...toCSSVariablesObject(theme.spacing, `${prefix}`),
+    ...toCSSVariablesObject(theme.spacing, `${prefix}-space`),
   };
 }
 
