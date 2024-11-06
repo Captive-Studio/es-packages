@@ -1,0 +1,24 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`cherrySea > matches snapshot 1`] = `
+":root {
+  --cs-space-000: 0px;
+  --cs-space-025: 4px;
+  --cs-space-050: 8px;
+  --cs-space-075: 12px;
+  --cs-space-100: 16px;
+  --cs-space-150: 24px;
+  --cs-space-200: 32px;
+  --cs-space-300: 48px;
+  --cs-space-400: 64px;
+  --cs-space-600: 96px;
+  --cs-space-800: 128px;
+  --cs-space-1200: 192px;
+  --cs-space-1600: 256px;
+  --cs-space-2400: 384px;
+  --cs-space-3200: 512px;
+  --cs-space-4000: 640px;
+  --cs-space-4800: 768px;
+}
+"
+`;
