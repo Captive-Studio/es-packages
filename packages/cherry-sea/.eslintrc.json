@@ -1,7 +1,7 @@
 {
   "overrides": [
     {
-      "files": "src/colors/**/*.ts",
+      "files": "src/**/*.ts",
       "rules": {
         "@typescript-eslint/naming-convention": "off"
       }
