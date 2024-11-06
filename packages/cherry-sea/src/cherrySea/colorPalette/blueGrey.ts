@@ -1,4 +1,4 @@
-import { ColorPalette } from '../type.js';
+import { ColorPalette } from '../../type.js';
 
 export const blueGrey = ColorPalette({
   50: '#f5f7fa',
