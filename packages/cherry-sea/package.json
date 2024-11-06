@@ -32,6 +32,8 @@
     "postpack": "npx clean-package restore",
     "prepack": "npx clean-package",
     "prepublishOnly": "npm run clean;npm run build",
+    "test": "npx run-p \"test:*\"",
+    "test:src": "vitest run",
     "typecheck": "tsc"
   },
   "clean-package": "../../clean-package.config.cjs",
