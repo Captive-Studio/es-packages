@@ -136,7 +136,7 @@ exports[`cherrySea > matches snapshot 1`] = `
       "900": "#8d2b0b",
     },
   },
-  "spacing": {
+  "space": {
     "0": "0px",
     "100": "16px",
     "1200": "192px",

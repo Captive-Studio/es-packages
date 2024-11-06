@@ -1,6 +1,6 @@
 import type { Spacing } from '../type.js';
 
-export const spacing: Spacing = {
+export const space: Spacing = {
   0: '0px',
   25: '4px',
   50: '8px',

@@ -1,7 +1,7 @@
 import type { Theme } from './type.js';
 import { color } from './cherrySea/color.js';
 import { colorPalette } from './cherrySea/colorPalette.js';
-import { spacing } from './cherrySea/spacing.js';
+import { space } from './cherrySea/space.js';
 import { typeface } from './cherrySea/typeface.js';
 
 /**
@@ -9,7 +9,7 @@ import { typeface } from './cherrySea/typeface.js';
  */
 export const cherrySea = {
   typeface,
-  spacing,
+  space,
   color,
   colorPalette,
 } satisfies Theme;

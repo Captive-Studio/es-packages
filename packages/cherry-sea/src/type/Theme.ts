@@ -19,5 +19,5 @@ export interface Theme {
   /**
    * Spacing scale
    */
-  spacing: Spacing;
+  space: Spacing;
 }
