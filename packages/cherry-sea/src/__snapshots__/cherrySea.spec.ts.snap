@@ -156,32 +156,26 @@ exports[`cherrySea > matches snapshot 1`] = `
     "800": "128px",
   },
   "typeface": {
-    "brand": {
-      "fontFamily": [
-        "Barlow",
-        "-apple-system",
-        "Segoe UI",
-        "roboto",
-        "noto sans",
-        "ubuntu",
-        "cantarell",
-        "helvetica neue",
-      ],
-      "letterSpacing": undefined,
-    },
-    "plain": {
-      "fontFamily": [
-        "Inter",
-        "-apple-system",
-        "Segoe UI",
-        "roboto",
-        "noto sans",
-        "ubuntu",
-        "cantarell",
-        "helvetica neue",
-      ],
-      "letterSpacing": undefined,
-    },
+    "brand": [
+      "Barlow",
+      "-apple-system",
+      "Segoe UI",
+      "roboto",
+      "noto sans",
+      "ubuntu",
+      "cantarell",
+      "helvetica neue",
+    ],
+    "plain": [
+      "Inter",
+      "-apple-system",
+      "Segoe UI",
+      "roboto",
+      "noto sans",
+      "ubuntu",
+      "cantarell",
+      "helvetica neue",
+    ],
   },
 }
 `;

@@ -1,17 +1,4 @@
-export interface Typeface {
-  /**
-   * List of font family to use
-   */
-  fontFamily: Array<string>;
-  /**
-   * Letter spacing
-   */
-  letterSpacing: number | string | undefined;
-}
-export function Typeface(properties: Partial<Typeface>): Typeface {
-  return {
-    fontFamily: [],
-    letterSpacing: undefined,
-    ...properties,
-  };
+export type Typeface = Array<string>;
+export function Typeface(properties: Array<string>): Typeface {
+  return properties;
 }
