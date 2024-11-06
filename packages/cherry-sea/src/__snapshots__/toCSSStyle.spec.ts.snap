@@ -2,10 +2,10 @@
 
 exports[`cherrySea > matches snapshot 1`] = `
 ":root {
-  --cs-space-000: 0px;
-  --cs-space-025: 4px;
-  --cs-space-050: 8px;
-  --cs-space-075: 12px;
+  --cs-space-0: 0px;
+  --cs-space-25: 4px;
+  --cs-space-50: 8px;
+  --cs-space-75: 12px;
   --cs-space-100: 16px;
   --cs-space-150: 24px;
   --cs-space-200: 32px;
