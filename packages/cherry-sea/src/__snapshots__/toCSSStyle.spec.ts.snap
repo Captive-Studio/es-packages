@@ -2,6 +2,28 @@
 
 exports[`cherrySea > matches snapshot 1`] = `
 ":root {
+  --cs-color-primary: #d9127c;
+  --cs-color-on-primary: #fff;
+  --cs-color-primary-container: red;
+  --cs-color-on-primary-container: red;
+  --cs-color-secondary: red;
+  --cs-color-on-secondary: red;
+  --cs-color-secondary-container: red;
+  --cs-color-on-secondary-container: red;
+  --cs-color-tertiary: red;
+  --cs-color-on-tertiary: red;
+  --cs-color-tertiary-container: red;
+  --cs-color-on-tertiary-container: red;
+  --cs-color-error: red;
+  --cs-color-on-error: red;
+  --cs-color-error-container: red;
+  --cs-color-on-error-container: red;
+  --cs-color-surface: #f5f7fa;
+  --cs-color-on-surface: #102a43;
+  --cs-color-outline-variant: red;
+  --cs-color-on-surface-variant: #334e68;
+  --cs-color-outline: red;
+  --cs-color-white: #fff;
   --cs-space-0: 0px;
   --cs-space-25: 4px;
   --cs-space-50: 8px;

@@ -10,6 +10,7 @@ export function toCSSStyle(theme: Theme, prefix = ''): string {
 
 export function toCSSVariables(theme: Theme, prefix = ''): CSSVariables {
   return {
+    ...toCSSVariablesObject(theme.color, `${prefix}-color`),
     ...toCSSVariablesObject(theme.spacing, `${prefix}-space`),
   };
 }
@@ -23,10 +24,14 @@ function toCSSVariablesObject(obj: object, prefix = ''): CSSVariables {
         return getObjectEntries(value, `${entryPrefix}-${key}`);
       }
       // Formate le nom de la variable CSS
-      const cssVarName = `${prefix}-${key}`.replaceAll('_', '-').toLowerCase();
+      const cssVarName = `${prefix}-${toDashCase(key.replaceAll('_', '-'))}`;
       return [[cssVarName, Array.isArray(value) ? value.join(',') : String(value)]];
     });
   }
 
   return Object.fromEntries(getObjectEntries(obj, prefix));
+}
+
+function toDashCase(str: string) {
+  return str.replaceAll(/[A-Z]/g, (m) => `-${m.toLowerCase()}`);
 }
