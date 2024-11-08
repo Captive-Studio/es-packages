@@ -3,27 +3,11 @@
 exports[`cherrySea > matches snapshot 1`] = `
 {
   "color": {
-    "error": "red",
-    "errorContainer": "red",
-    "onError": "red",
-    "onErrorContainer": "red",
     "onPrimary": "#fff",
-    "onPrimaryContainer": "red",
-    "onSecondary": "red",
-    "onSecondaryContainer": "red",
     "onSurface": "#102a43",
     "onSurfaceVariant": "#334e68",
-    "onTertiary": "red",
-    "onTertiaryContainer": "red",
-    "outline": "red",
-    "outlineVariant": "red",
     "primary": "#d9127c",
-    "primaryContainer": "red",
-    "secondary": "red",
-    "secondaryContainer": "red",
     "surface": "#f5f7fa",
-    "tertiary": "red",
-    "tertiaryContainer": "red",
     "white": "#fff",
   },
   "colorPalette": {
