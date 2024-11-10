@@ -4359,6 +4359,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-json-compat-utils@npm:^0.1.2":
+  version: 0.1.3
+  resolution: "eslint-json-compat-utils@npm:0.1.3"
+  peerDependencies:
+    eslint: "*"
+    jsonc-eslint-parser: ^2.4.0
+  peerDependenciesMeta:
+    "@eslint/json":
+      optional: true
+  checksum: 10c0/7217f33ed1be1472b54631dcb98e884efc9498d00e629a956f31681259508d765bf487ef2b925059d9f8492c72269d88b56eb5688daed85544eff83c2268380a
+  languageName: node
+  linkType: hard
+
 "eslint-module-utils@npm:^2.12.0":
   version: 2.12.0
   resolution: "eslint-module-utils@npm:2.12.0"
@@ -4451,11 +4464,12 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-jsonc@npm:^2.4.0":
-  version: 2.17.0
-  resolution: "eslint-plugin-jsonc@npm:2.17.0"
+  version: 2.18.0
+  resolution: "eslint-plugin-jsonc@npm:2.18.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.2.0"
     eslint-compat-utils: "npm:^0.6.0"
+    eslint-json-compat-utils: "npm:^0.1.2"
     espree: "npm:^9.6.1"
     graphemer: "npm:^1.4.0"
     jsonc-eslint-parser: "npm:^2.0.4"
@@ -4463,7 +4477,7 @@ __metadata:
     synckit: "npm:^0.6.0"
   peerDependencies:
     eslint: ">=6.0.0"
-  checksum: 10c0/fb1131f345da4eb3ad28115d3133cb938097b7801a8f8312e0c8267c931189f18bae5ae06e4110718999ad5dfdedac5d13637dc2e8664649bf7eeda65971d3bb
+  checksum: 10c0/4b3d968115919668ae0b619e39717ea2f12dbb927839b863f0e05bc2796fdd2dacd8c0689fada960567412983e7edd7241ef72d09b8e94bb673e5d90c80cea0b
   languageName: node
   linkType: hard
 
