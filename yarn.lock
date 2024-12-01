@@ -2612,21 +2612,21 @@ __metadata:
   linkType: hard
 
 "@w5s/commitlint-config@npm:^2.0.0":
-  version: 2.1.3
-  resolution: "@w5s/commitlint-config@npm:2.1.3"
+  version: 2.1.4
+  resolution: "@w5s/commitlint-config@npm:2.1.4"
   dependencies:
     "@commitlint/types": "npm:^19.0.0"
-    "@w5s/conventional-changelog": "npm:^2.1.3"
+    "@w5s/conventional-changelog": "npm:^2.1.4"
   peerDependencies:
     "@commitlint/cli": ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
   peerDependenciesMeta:
     "@commitlint/cli":
       optional: true
-  checksum: 10c0/5800059d8becbb2e93a4413a93f7310ad7147fa263dd2ae8a2aebb3e42e556a844d19d72646bb2ad171131755c7cebfd2e195f9d2a44fa54dd54a7d3121d2431
+  checksum: 10c0/7404631973fb76a9ced12e180bcdf4728f17674ed682e41ac3784f67ceb3cba4cdc968ae5fe23f5b3c167eb436aebd56f99dcfbfc206d5fbb5d69ca64eebb9c9
   languageName: node
   linkType: hard
 
-"@w5s/conventional-changelog@npm:2.1.3, @w5s/conventional-changelog@npm:^2.1.3":
+"@w5s/conventional-changelog@npm:2.1.3":
   version: 2.1.3
   resolution: "@w5s/conventional-changelog@npm:2.1.3"
   dependencies:
@@ -2637,9 +2637,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@w5s/conventional-changelog@npm:^2.1.4":
+  version: 2.1.4
+  resolution: "@w5s/conventional-changelog@npm:2.1.4"
+  dependencies:
+    "@commitlint/types": "npm:^19.0.0"
+    emoji-regex: "npm:^10.2.1"
+    gitmojis: "npm:^3.13.4"
+  checksum: 10c0/079e178562f217d3d3a773f8ceaddd0bee5b17cb6d99dd860045c34039faba24e0125e61e47578c98b44a0773bcff59309682e869c26eac4cb8c5b80647c10e3
+  languageName: node
+  linkType: hard
+
 "@w5s/cspell-config@npm:^2.3.10":
-  version: 2.3.15
-  resolution: "@w5s/cspell-config@npm:2.3.15"
+  version: 2.3.16
+  resolution: "@w5s/cspell-config@npm:2.3.16"
   dependencies:
     "@cspell/cspell-bundled-dicts": "npm:^8.0.0"
   peerDependencies:
@@ -2647,16 +2658,16 @@ __metadata:
   peerDependenciesMeta:
     cspell:
       optional: true
-  checksum: 10c0/86033fa1cc30e9903f3c436d779e9fa8a2686de04df36910e3b278a3142c9265d92e76d0464a85ec64f8fde81458244d2fa32ad9c8e4a2a2621877e5ec548952
+  checksum: 10c0/7756431c6b9f2a42e286c7c272f05316b85b40eda3002a7bb2edcfbefe64fc6b97e0f7593e9ca785fb3dfc80bb6e083d5132dee95b246ad8cfee26eb81f160ed
   languageName: node
   linkType: hard
 
 "@w5s/dev@npm:^2.0.0, @w5s/dev@npm:^2.2.16":
-  version: 2.2.16
-  resolution: "@w5s/dev@npm:2.2.16"
+  version: 2.2.17
+  resolution: "@w5s/dev@npm:2.2.17"
   dependencies:
     "@types/eslint": "npm:^8.44.0"
-  checksum: 10c0/bb0016a2ddd92793c5dbc78c7a1c20c7fdd0e52ce62e1e649a545a991c80b11adc079b4bb25bb4b8c5543b19152c25b4b1d7b0707a4e351b7a8383d2170cb204
+  checksum: 10c0/92a3af43591353d1429bf7f904d840f72fc85d22b754ca9c1f59544ec16b9e6191ce45cee152421cd9e6b5cce37f5251defeaee3e2a754db7804b70e12b0a57a
   languageName: node
   linkType: hard
 
@@ -2695,14 +2706,14 @@ __metadata:
   linkType: hard
 
 "@w5s/prettier-config@npm:^2.2.1, @w5s/prettier-config@npm:^2.2.2":
-  version: 2.2.2
-  resolution: "@w5s/prettier-config@npm:2.2.2"
+  version: 2.2.3
+  resolution: "@w5s/prettier-config@npm:2.2.3"
   peerDependencies:
     prettier: 2.x || 3.x
   peerDependenciesMeta:
     prettier:
       optional: true
-  checksum: 10c0/e486810a4233c3ab54077abf40a3a232fbfcef1f380539e6ff47ff18caca6b678044c3d3257d202bb80f2651afd150692074122e68c5d2ba98851ca74d2264d6
+  checksum: 10c0/c00c96cd055ac89f3a8699e0aa24b8de92a5cc45902d82e5ae6f546718e986625863b4b70f550cd99cb8f96cbd800f7d3a680d0d9c2d0e0e11850a26d3d98aa9
   languageName: node
   linkType: hard
 
