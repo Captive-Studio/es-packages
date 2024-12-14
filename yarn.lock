@@ -350,9 +350,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-companies@npm:^3.1.7":
-  version: 3.1.7
-  resolution: "@cspell/dict-companies@npm:3.1.7"
-  checksum: 10c0/edb92c7e25ea46f24f0d8b657304878d16bd808cd21a90a3338ade7e78705d7aa677d49c7650d54e88d4ce8d726b4f003324ea8827397a480173b9817f69d3cf
+  version: 3.1.8
+  resolution: "@cspell/dict-companies@npm:3.1.8"
+  checksum: 10c0/e3c3e3b6f3e5265d75f04b11274fe00827ade24c4df028c491a8574e9812a2f4d12b2ef6ab570d77ae3cfb46b00bf63b95caff73e9041b14f0f05f7ed2972717
   languageName: node
   linkType: hard
 
@@ -490,9 +490,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-gaming-terms@npm:^1.0.8":
-  version: 1.0.8
-  resolution: "@cspell/dict-gaming-terms@npm:1.0.8"
-  checksum: 10c0/7617d5278021598dd65cd2be68c0a22144a02888a82bf4ba8c7e49fec2ba6d22fb185d50b3f187bb40abaa2881f9e585f185b0539889684d5d49aa65f533ae09
+  version: 1.0.9
+  resolution: "@cspell/dict-gaming-terms@npm:1.0.9"
+  checksum: 10c0/8353033dad8940b957102ccd979eeb1b96288b36255b8e6b9e5dc46e5ddacfe44d5079166df0b952a8fdedb66634f0738cea121ccb07aa249e110fcf1a136b72
   languageName: node
   linkType: hard
 
@@ -614,9 +614,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-npm@npm:^5.1.14":
-  version: 5.1.16
-  resolution: "@cspell/dict-npm@npm:5.1.16"
-  checksum: 10c0/9438a997608ecdd648e7662fcd355fa3c56797d614234cac4fef31211de612357df79eb68f672e2a189a5aba8d96e89292026b446f9f4d7c8fafe9dfa99965df
+  version: 5.1.17
+  resolution: "@cspell/dict-npm@npm:5.1.17"
+  checksum: 10c0/ddbb9ef7b7e80b2fc402eaad360151891f16c42c899adf9eaaec88183cf3f3605d934f728e0face8cbe2923d2d0d3e296e05c4e6379147efd58b61a39ed7c93d
   languageName: node
   linkType: hard
 
@@ -679,9 +679,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-software-terms@npm:^4.1.17":
-  version: 4.1.18
-  resolution: "@cspell/dict-software-terms@npm:4.1.18"
-  checksum: 10c0/cb7886107082ae973aae26fb35d0d1ea3851f8fc44e430e78120a85b08e3abb203e99e2a52a2a3e368fc3eb1aea22103b5185a79b03750604d2a4c88e9d1cff0
+  version: 4.1.19
+  resolution: "@cspell/dict-software-terms@npm:4.1.19"
+  checksum: 10c0/9e0384022aeb96247d1878da4ee36a4e1389501ea8b7ea1fc225d3bd6d9ff9238d2a1b579ae3182f0834e4f9732c8ff41b4a5c46a1a2b401cddb3b6050ce0329
   languageName: node
   linkType: hard
 
@@ -9395,21 +9395,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tldts-core@npm:^6.1.67":
-  version: 6.1.67
-  resolution: "tldts-core@npm:6.1.67"
-  checksum: 10c0/7841c8d53250bdadfdd049f5f7cde4a71f08b4a33a3f024dd62a2d68512e9eca44141395abad3841aa5024a48b47a6e11a4ef23715baab3be8986d2ed2513431
+"tldts-core@npm:^6.1.68":
+  version: 6.1.68
+  resolution: "tldts-core@npm:6.1.68"
+  checksum: 10c0/7ce2d0526aaf80656e746e322f9632b92afd07702c5aa61f92f908d325d4878fe6654d94039f30f625b32e7ff934e36cb83722b2e62c752ae34beed40fa1d123
   languageName: node
   linkType: hard
 
 "tldts@npm:^6.1.32":
-  version: 6.1.67
-  resolution: "tldts@npm:6.1.67"
+  version: 6.1.68
+  resolution: "tldts@npm:6.1.68"
   dependencies:
-    tldts-core: "npm:^6.1.67"
+    tldts-core: "npm:^6.1.68"
   bin:
     tldts: bin/cli.js
-  checksum: 10c0/074edcd718ede006ff0e189701a4fda472686998aa6155ef4920e3ca17f4b54afb7f1afc9668ce33a3de523dd562eb9266e0610efd05cb2d9e9f19d9fa7510d4
+  checksum: 10c0/adbc9b23fa18a150e5124daec853ec1a2c7b656e2e294855b52ef2f7f7d5266660392ae222840862b6360165f7adbc3ae731f78f0a0f96ee1b4558328e428a55
   languageName: node
   linkType: hard
 
