@@ -69,7 +69,7 @@
     "@captive/commitlint-config": "2.1.13",
     "@captive/conventional-changelog": "2.0.18",
     "@captive/cspell-config": "2.4.18",
-    "@captive/eslint-config": "2.0.27",
+    "@captive/eslint-config": "2.0.28",
     "@captive/ts-config": "2.4.0",
     "cspell": "8.17.1",
     "eslint": "8.57.1",
