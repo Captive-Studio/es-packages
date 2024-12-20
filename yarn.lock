@@ -148,7 +148,7 @@ __metadata:
     "@captive/conventional-changelog": "npm:2.0.17"
     "@captive/cspell-config": "npm:2.4.17"
     "@captive/eslint-config": "npm:2.0.27"
-    "@captive/ts-config": "npm:2.3.0"
+    "@captive/ts-config": "npm:2.4.0"
     cspell: "npm:8.17.1"
     eslint: "npm:8.57.1"
     jsdom: "npm:25.0.1"
@@ -197,15 +197,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/ts-config@npm:2.3.0":
-  version: 2.3.0
-  resolution: "@captive/ts-config@npm:2.3.0"
+"@captive/ts-config@npm:2.4.0":
+  version: 2.4.0
+  resolution: "@captive/ts-config@npm:2.4.0"
   peerDependencies:
     typescript: ">=5.x"
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 10c0/8ef262ef04b5a360feb913836a56ba818a26221b225ee91411b4d1453037d739795deec0b57acf9dfdecb723a358c416497373f7edfe0517caa1b7ae13b72233
+  checksum: 10c0/e5e6bf2d3a53c258c3c44d5b68ab8b521de92c1d0fef3bc53f66145181b13e9a794120d11bfd274718eb026ac0bf1995f2fddc823f7f0ec353d71dfffaf1c329
   languageName: node
   linkType: hard
 
