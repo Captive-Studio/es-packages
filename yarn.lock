@@ -350,9 +350,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-companies@npm:^3.1.8":
-  version: 3.1.9
-  resolution: "@cspell/dict-companies@npm:3.1.9"
-  checksum: 10c0/ded3313e7b0b574ab310c7d61c0ba2445ac5d0a61240f4f709e9c81c392f8ca52b8e42d0ccd0aac35e43a94eee513e326433931c8ba646b4c8408f140ead36cb
+  version: 3.1.10
+  resolution: "@cspell/dict-companies@npm:3.1.10"
+  checksum: 10c0/8cf8fb5bac18eeb37299b9746bc708cba409d0a573c6dee39329613fbfbfacd6504f7a923735b7806ae428bae7e22325ebfe273e6a8f85614c08b2ab79664611
   languageName: node
   linkType: hard
 
@@ -614,9 +614,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-npm@npm:^5.1.17":
-  version: 5.1.18
-  resolution: "@cspell/dict-npm@npm:5.1.18"
-  checksum: 10c0/145c75f3ac7852913350e38cffd521c152efb1ce5c01c56cc5699d1998cbb9f5daa41155b001bf188617b585ec2187c70cb9bc70757533eeb1b487d9399455c1
+  version: 5.1.19
+  resolution: "@cspell/dict-npm@npm:5.1.19"
+  checksum: 10c0/7a68593c6c90197629de099ed71b82a163068078f41a3f3a994e4ae04cbebbe5accbe72b9983fc594a2d5fc739ed2bf341b085afc46bdd0b4a66bb56207d9018
   languageName: node
   linkType: hard
 
@@ -679,9 +679,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-software-terms@npm:^4.1.19":
-  version: 4.1.20
-  resolution: "@cspell/dict-software-terms@npm:4.1.20"
-  checksum: 10c0/57a4b1485783a93b30205b47abc0f561ed37efa9827113ea2bbee039e7576a3af9fe748c56b9430674fa6b91730492821cc1179723fb941582da53d18c806242
+  version: 4.1.21
+  resolution: "@cspell/dict-software-terms@npm:4.1.21"
+  checksum: 10c0/2bffe7ffb3d563ed0d116f5ce024c638778ba6121ce0c0d3061bd244c3723b198879143244957f6fa9208594b975f1cec3e71558a82a377293520f7021966493
   languageName: node
   linkType: hard
 
@@ -3355,9 +3355,9 @@ __metadata:
   linkType: hard
 
 "chalk@npm:^5.2.0, chalk@npm:^5.3.0":
-  version: 5.4.0
-  resolution: "chalk@npm:5.4.0"
-  checksum: 10c0/474266abd1a69879e367690b3090541deb985a54d3263efa4c82ffc623ea12b8ab9afdba082e853bb5e3f64c6619ac4951a154622b6cc8f66265f85c943d0481
+  version: 5.4.1
+  resolution: "chalk@npm:5.4.1"
+  checksum: 10c0/b23e88132c702f4855ca6d25cb5538b1114343e41472d5263ee8a37cccfccd9c4216d111e1097c6a27830407a1dc81fecdf2a56f2c63033d4dbbd88c10b0dcef
   languageName: node
   linkType: hard
 
