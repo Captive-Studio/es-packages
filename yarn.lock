@@ -336,9 +336,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-aws@npm:^4.0.7":
-  version: 4.0.8
-  resolution: "@cspell/dict-aws@npm:4.0.8"
-  checksum: 10c0/d03d9151b3c2c6e51caa8c4009f73d9fb4f2a84b4dcbd8d82188f7614b2548202c4f11abbeb3c9edbdbee276e688b239fc17837e1c63df0d24ee08497ec7c39e
+  version: 4.0.9
+  resolution: "@cspell/dict-aws@npm:4.0.9"
+  checksum: 10c0/f78d319e8842fdfcf2a61e0459fbbebd63cdfb3f2dacfa98e789046940ddffb0d40f1dba0399fb976eaa65fd6122a111302e5b776dcadd913fc0f85738286137
   languageName: node
   linkType: hard
 
@@ -441,9 +441,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-en_us@npm:^4.3.28":
-  version: 4.3.28
-  resolution: "@cspell/dict-en_us@npm:4.3.28"
-  checksum: 10c0/6bee6d8313d6a2cd5afa0ac47a736507f97e8262e8a28a032831115689b44992addd3ed64e5dec82d72cd0881cea224114feca71c3d48920477b8f17dd735315
+  version: 4.3.29
+  resolution: "@cspell/dict-en_us@npm:4.3.29"
+  checksum: 10c0/c2555b5e7d6503e8922f08e88068142e62ebcf8589e00ab265123e9643d3806248c3f62b9b290ed4302c9703cf94675b69f918b55dd61669d2d8b3a680cb06f5
   languageName: node
   linkType: hard
 
@@ -490,9 +490,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-gaming-terms@npm:^1.0.9":
-  version: 1.0.10
-  resolution: "@cspell/dict-gaming-terms@npm:1.0.10"
-  checksum: 10c0/5a5eda0448fb4a1c110dd5c4dda7a6e20b9fc2947a8035db6bfe711c69b09987247e52d928b8a381e4e2707e6ab2a46feadb9eb6d7532ff9965ea169de67c431
+  version: 1.1.0
+  resolution: "@cspell/dict-gaming-terms@npm:1.1.0"
+  checksum: 10c0/ac6086cc8e53324e168cfc1373704b9acb28b3b2dcc3ac9074a2fa23c14ce7782b0bfc0884b52895c32b47585b54025cc2eb98354e8b6ca36218d41e4ddeea76
   languageName: node
   linkType: hard
 
