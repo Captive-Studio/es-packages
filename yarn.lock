@@ -529,9 +529,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-google@npm:^1.0.5":
-  version: 1.0.7
-  resolution: "@cspell/dict-google@npm:1.0.7"
-  checksum: 10c0/c6a84634752d5ab1adf8d3fc6ceda7c7e4b0bac7d407664f087cb6a4a24b93036f4b1f42a624ede8807406ba8594cbcbeabad4850d8652e77ad9023f6fe268ac
+  version: 1.0.8
+  resolution: "@cspell/dict-google@npm:1.0.8"
+  checksum: 10c0/89385531361d1b00da54c2cade3e29442b6ba7baa2f5a4922b628ee79fb97c860319480061dd01a5a99b527514cad0594699c15a57bdf6c4c17c783aa257a0ab
   languageName: node
   linkType: hard
 
@@ -639,9 +639,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-npm@npm:^5.1.22":
-  version: 5.1.23
-  resolution: "@cspell/dict-npm@npm:5.1.23"
-  checksum: 10c0/5357433bf85e929edf42e949a74c1b5a54b461d3d9532eb6fb52cf6192a7fab06170ee29256592d69db6de750c66297cc59490cc8262d6f02e60524f056814a5
+  version: 5.1.24
+  resolution: "@cspell/dict-npm@npm:5.1.24"
+  checksum: 10c0/47f602355ecb940b4584403b9ca8504a21faeec6e0672e81eca5d14b82331829d7edee7fd054893667ba128b51e01b6d85915eb49afc26e102c11ecd9ef2c7f7
   languageName: node
   linkType: hard
 
