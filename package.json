@@ -70,7 +70,7 @@
     "@captive/conventional-changelog": "2.0.19",
     "@captive/cspell-config": "2.4.19",
     "@captive/eslint-config": "2.0.28",
-    "@captive/ts-config": "2.4.0",
+    "@captive/ts-config": "2.4.1",
     "cspell": "8.17.2",
     "eslint": "8.57.1",
     "jsdom": "26.0.0",
