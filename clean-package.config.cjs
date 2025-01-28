@@ -1,5 +1,6 @@
 const { readFileSync } = require('node:fs');
 
+// eslint-disable-next-line n/no-sync
 const { scripts = {} } = JSON.parse(readFileSync(`${process.cwd()}/package.json`, 'utf8'));
 
 const cleanPackageConfig = {
