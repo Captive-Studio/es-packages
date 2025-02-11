@@ -111,7 +111,7 @@ __metadata:
   dependencies:
     "@capacitor/core": "npm:6.2.0"
     "@sentry/browser": "npm:8.54.0"
-    "@sentry/capacitor": "npm:1.1.0"
+    "@sentry/capacitor": "npm:1.2.0"
     "@types/raygun4js": "npm:2.13.12"
     raygun4js: "npm:2.28.0"
     vite: "npm:6.1.0"
@@ -2016,9 +2016,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sentry/capacitor@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@sentry/capacitor@npm:1.1.0"
+"@sentry/capacitor@npm:1.2.0":
+  version: 1.2.0
+  resolution: "@sentry/capacitor@npm:1.2.0"
   dependencies:
     "@sentry/browser": "npm:8.42.0"
     "@sentry/core": "npm:8.42.0"
@@ -2036,7 +2036,7 @@ __metadata:
       optional: true
     "@sentry/vue":
       optional: true
-  checksum: 10c0/bb6f53e291f8c9175133547f894d35fe98807a1fcf059f44067971857b42e03a45118c3ef0d4f90277f52fad2c6e86fcf46b11d94763e68cabe352b802c64d43
+  checksum: 10c0/2a51ba7e0987ce58673d447f39667d681b7c898fc752a6614ee5e5b9c8fd1fcdf509893c29173699b37c0dde4d903120f4d29204d1533c55fa725f5e884f4fe9
   languageName: node
   linkType: hard
 
