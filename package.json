@@ -80,7 +80,7 @@
     "turbo": "2.4.4",
     "typescript": "5.8.2"
   },
-  "packageManager": "yarn@4.8.0",
+  "packageManager": "yarn@4.8.1",
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=6.0.0",
