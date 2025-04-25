@@ -38,7 +38,7 @@
   },
   "clean-package": "../../clean-package.config.cjs",
   "devDependencies": {
-    "vite": "6.3.2",
+    "vite": "6.3.3",
     "vitest": "3.1.2"
   },
   "engines": {
