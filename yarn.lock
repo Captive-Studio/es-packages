@@ -368,9 +368,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-companies@npm:^3.1.15":
-  version: 3.2.0
-  resolution: "@cspell/dict-companies@npm:3.2.0"
-  checksum: 10c0/c79d451ed69ab58d6c0da3e655c4d9c0b736de47711dd54d8d605de98d26af178f201c5322814f3ae00c8e2e5ba30366ca0df769c714e4edf37f7c16a931f94c
+  version: 3.2.1
+  resolution: "@cspell/dict-companies@npm:3.2.1"
+  checksum: 10c0/8e98d9321277a1e05b88a95f3ac2c421568c2806a5319177b8a998316dedd888d063793135f57b73f1b88d636bbbe45e43249574804c1a42913f8fbd252263b2
   languageName: node
   linkType: hard
 
@@ -459,9 +459,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-en_us@npm:^4.4.3":
-  version: 4.4.5
-  resolution: "@cspell/dict-en_us@npm:4.4.5"
-  checksum: 10c0/3746bea9d891da3663a6964b7072827edc7a5a2f2a57b69935bb33441d4579c4ccd446eb8c77bc6d33628edc7d79646cb04fb8e53e199936e41f2057832b203b
+  version: 4.4.6
+  resolution: "@cspell/dict-en_us@npm:4.4.6"
+  checksum: 10c0/c69dccac95bbd339d59aa14341b36b61f9b57379cf4bcc1ade819b9af6c931efa09af4a4e1041427b61a980dd24ea4b708c81852c8cb87a72820bf8ab8a48fa2
   languageName: node
   linkType: hard
 
