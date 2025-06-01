@@ -1815,9 +1815,9 @@ __metadata:
   linkType: hard
 
 "@pkgr/core@npm:^0.2.4":
-  version: 0.2.5
-  resolution: "@pkgr/core@npm:0.2.5"
-  checksum: 10c0/38b52de888ba7db43e5d1e9cbbd652918b6a59bd13e0d6e81c2d55cc4f6c965e455400e18d15ee709b2c881e3e915222e38a3e0a85ef5304c19e0c6c8ac52204
+  version: 0.2.7
+  resolution: "@pkgr/core@npm:0.2.7"
+  checksum: 10c0/951f5ebf2feb6e9dbc202d937f1a364d60f2bf0e3e53594251bcc1d9d2ed0df0a919c49ba162a9499fce73cf46ebe4d7959a8dfbac03511dbe79b69f5fedb804
   languageName: node
   linkType: hard
 
