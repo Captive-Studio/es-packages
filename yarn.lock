@@ -511,9 +511,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-en-common-misspellings@npm:^2.0.10, @cspell/dict-en-common-misspellings@npm:^2.0.11":
-  version: 2.1.0
-  resolution: "@cspell/dict-en-common-misspellings@npm:2.1.0"
-  checksum: 10c0/6dbbeea16f37fbef1ceb0798c13eae4bb34636da6280e6b58b922f97f854f5185b88a99f35c8bca20ba925e529e98ef9177ba45afaca79b6e61c76eedc965823
+  version: 2.1.1
+  resolution: "@cspell/dict-en-common-misspellings@npm:2.1.1"
+  checksum: 10c0/0648c70ce45d4f15f8858605f0a33973b7cfd7031e4c1db3b7855cfcfebfd7857e01701ad0f9880974533597488786e6d9e9962bf4553f3741a41b6b96081268
   languageName: node
   linkType: hard
 
