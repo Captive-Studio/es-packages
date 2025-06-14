@@ -71,7 +71,7 @@
     "@captive/cspell-config": "2.4.21",
     "@captive/eslint-config": "2.0.32",
     "@captive/ts-config": "2.4.1",
-    "cspell": "9.0.2",
+    "cspell": "9.1.1",
     "eslint": "8.57.1",
     "jsdom": "26.1.0",
     "lerna": "8.2.2",
